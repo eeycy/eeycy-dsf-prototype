@@ -1,0 +1,99 @@
+{
+    "id":"promotions/qualificationsCheck",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "preScript" : "isLoggedIn.js",
+    "postScript" : "promotions/qualificationsCheck.js",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "backLink",
+                "DOMId" : "before-main",
+                "content" : {
+                    "en" : {"label" : "Back"},
+                    "el" : {"label" : "Πίσω"}
+                }
+            }
+            ,{
+                "type": "h1",
+                "content" : {
+                    "en" : {"label" : "Academic Qualifications"},
+                    "el" : {"label" : "Ακαδημαϊκά Προσόντα"}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Check academic qualifications from previous applications. You can submit new academic qualifications and/or edit if required."},
+                    "el" : {"label" : "Ελέγξτε τα πρόσθετα ακαδημαϊκά προσόντα που έχετε δηλώσει σε προηγούμενες αιτήσεις. Μπορείτε να καταχωρήσετε πρόσθετα ακαδημαϊκά προσόντα ή/και να διορθώσετε τα υφιστάμενα, αν χρειάζεται."}
+                }
+            }
+            ,{
+                "type": "table",
+                "name": "qualTable",
+				"id": "qualTable",
+                "content" : {
+                    "en" : {"label" : "",
+                            "head": ["","",""],
+                            "data" : [
+                                ["<b>1</b>","<b>Title of Study: </b><span id='titleOfStudy1'>MSc in Networks</span><br><b>Institution: </b><span id='institution1'>University of Cyprus</span><br><b>Country of Study: </b><span id='countryOfStudy1'>Cyprus</span><br><b>Year of Study: </b><span id='yearOfStudy1'>1999</span>","<a href='#p/promotions/qualifications'>Change</a>"],
+                                ["<b>2</b>","<b>Title of Study: </b><span id='titleOfStudy2'>PhD in Educational Research</span><br><b>Institution: </b><span id='institution2'>University of Manchester</span><br><b>Country of Study: </b><span id='countryOfStudy2'>UK</span><br><b>Year of Study: </b><span id='yearOfStudy2'>1999</span>","<a href='#p/promotions/qualifications2'>Change</a>"],
+                                ["<span id='rowid1'><b>3</b></span>","<span id='titleOfStudyAddT'><b>Title of Study: </b></span><span id='titleOfStudyAdd'></span><br><b><span id='institutionAddT'>Institution: </b></span><span id='institutionAdd'></span><br><span id='countryOfStudyAddT'><b>Country of Study: </b></span><span id='countryOfStudyAdd'></span><br><span id='yearOfStudyAddT'><b>Year of Study: </b></span><span id='yearOfStudyAdd'></span>","<span id='ChangeT'><a href='#p/promotions/qualificationsAdd'>Change</a></span>"]
+                            ]
+                        },
+                    "el" : {"label" : "",
+                            "head": ["","",""],
+                            "data" : [
+                                ["<b>1</b>","<b>Τίτλος Σπουδών: </b><span id='titleOfStudy1'>MSc in Networks</span><br><b>Ίδρυμα: </b><span id='institution1'>University of Cyprus</span><br><b>Χώρα: </b><span id='countryOfStudy1'>Cyprus</span><br><b>Έτος απόκτησης: </b><span id='yearOfStudy1'>1999</span>","<a href='#p/promotions/qualifications'>Αλλαγή</a>"],
+                                ["<b>2</b>","<b>Τίτλος Σπουδών: </b><span id='titleOfStudy2'>PhD in Educational Research</span><br><b>Ίδρυμα: </b><span id='institution2'>University of Manchester</span><br><b>Χώρα: </b><span id='countryOfStudy2'>UK</span><br><b>Έτος απόκτησης: </b><span id='yearOfStudy2'>1999</span>","<a href='#p/promotions/qualifications2'>Αλλαγή</a>"],
+                                ["<span id='rowid1'><b>3</b></span>","<span id='titleOfStudyAddT'><b>Τίτλος Σπουδών: </b></span><span id='titleOfStudyAdd'></span><br><b><span id='institutionAddT'>Ίδρυμα: </b></span><span id='institutionAdd'></span><br><span id='countryOfStudyAddT'><b>Χώρα: </b></span><span id='countryOfStudyAdd'></span><br><span id='yearOfStudyAddT'><b>Έτος απόκτησης: </b></span><span id='yearOfStudyAdd'></span>","<span id='ChangeT'><a href='#p/promotions/qualificationsAdd'>Αλλαγή</a></span>"]
+                        ]
+                    }
+                }
+            }
+            ,{
+                "type": "button",
+                "subtype": "secondary",
+                "id":"addBtn",
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "getData","data":""},
+							{"action" : "link", "data":"#p/promotions/qualificationsAdd"}
+                        ]
+                    }
+                ],
+                "content" : {
+                    "en" : {"label" : "Add new"},
+                    "el" : {"label" : "Προσθήκη νέου"}
+                }
+            }
+			,{
+				"type": "spanHTML",
+				"id": "placeHolder",
+				"content" : {
+					"en" : {"label" : ""},
+					"el" : {"label" : ""}
+				}
+			}
+            ,{
+                "type": "button",
+                "subtype": "primary",
+                "id": "nextRoutebtn",
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "nextOnRoute","data":""}
+                        ]
+                    }
+                ],
+                "content" : {
+                    "en" : {"label" : "Next"},
+                    "el" : {"label" : "Επόμενο"}
+                }
+            }
+        ]
+    }   
+}

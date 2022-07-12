@@ -1,0 +1,96 @@
+{
+    "id":"promotions/qualifications2",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "preScript" : "isLoggedIn.js",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "backLink",
+                "DOMId" : "before-main",
+                "content" : {
+                    "en" : {"label" : "Back"},
+                    "el" : {"label" : "Πίσω"}
+                }
+            }
+            ,{
+                "type": "divEmpty",
+                "id" : "alerts"
+            }
+            ,{
+                "type": "h1",
+                "content" : {
+                    "en" : {"label" : "Academic Qualifications"},
+                    "el" : {"label" : "Ακαδημαϊκά Προσόντα"}
+                }
+            }
+            ,{
+                "type": "text",
+                "required": false,
+                "name": "titleOfStudy2",
+                "id" : "titleOfStudy2",
+                "maxlength": 400,
+                "charSubType":"20",
+                "content" : {
+                    "en" : {"label" : "Title of Study"},
+                    "el" : {"label" : "Τίτλος Σπουδών"}
+                }
+            }
+            ,{
+                "type": "text",
+                "required": false,
+                "name": "institution2",
+                "id" : "institution2",
+                "maxlength": 400,
+                "charSubType":"20",
+                "content" : {
+                    "en" : {"label" : "Institution"},
+                    "el" : {"label" : "Ίδρυμα"}
+                }
+            }
+            ,{
+                "type": "text",
+                "required": false,
+                "name": "countryOfStudy2",
+                "id" : "countryOfStudy2",
+                "maxlength": 400,
+                "charSubType":"20",
+                "content" : {
+                    "en" : {"label" : "Country of Study"},
+                    "el" : {"label" : "Χώρα"}
+                }
+            }
+            ,{
+                "type": "text",
+                "required": false,
+                "name": "yearOfStudy2",
+                "id" : "yearOfStudy2",
+                "maxlength": 400,
+                "charSubType":"20",
+                "content" : {
+                    "en" : {"label" : "Year of study"},
+                    "el" : {"label" : "Έτος απόκτησης"}
+                }
+            }
+            ,{
+                "type": "button",
+                "subtype": "secondary",
+                "id":"saveBtn",
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "getData","data":""},
+							{"action" : "link", "data":"#r/promotions/4"}
+                        ]
+                    }
+                ],
+                "content" : {
+                    "en" : {"label" : "Save"},
+                    "el" : {"label" : "Αποθήκευση"}
+                }
+            }
+        ]
+    }   
+}

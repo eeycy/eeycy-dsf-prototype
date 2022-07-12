@@ -1,0 +1,34 @@
+{
+    "id":"signOut",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "preScript" : "signOut.js",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "h1",
+                "content" : {
+                    "en" : {"label" : "You are signed out"},
+                    "el" : {"label" : "Έχετε αποσυνδεθεί "}
+                }
+            },
+            {
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "You are now signed out."},
+                    "el" : {"label" : "Είστε πλέον αποσυνδεδεμένοι."}
+                }
+            }
+            ,{
+                "type": "link",
+                "href": "#",
+                "content" : {
+                    "en" : {"label" : "Home"},
+                    "el" : {"label" : "Αρχική"}
+                }
+            }
+        ]
+    }   
+}

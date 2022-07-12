@@ -1,0 +1,64 @@
+{
+    "id":"index",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "h1",
+                "content" : {
+                    "en" : {"label" : "Prototypes for promotion application"},
+                    "el" : {"label" : "Προτότυπα για αίτηση προαγωγής"}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Click on the link to start."},
+                    "el" : {"label" : "Κάντε κλικ στον σύνδεσμο για να ξεκινήσετε."}
+                }
+            }
+           ,{
+                "type": "link",
+                "href" : "#r/promotions1/0",
+                "content" : {
+                    "en" : {"label" : "Scenario 1 (submit NG certificate)"},
+                    "el" : {"label" : "Σενάριο 1 (υποβολή πιστοποιητικού ΕΦ)"}
+                }
+            }
+           ,{
+                "type": "link",
+                "href" : "#r/promotions2/0",
+                "content" : {
+                    "en" : {"label" : "Scenario 2 (submittion of NG certificate not required)"},
+                    "el" : {"label" : "Σενάριο 2 (δεν απαιτείται η υποβολή πιστοποιητικού ΕΦ)"}
+                }
+            }
+           ,{
+                "type": "link",
+                "href" : "#r/promotions3/0",
+                "content" : {
+                    "en" : {"label" : "Scenario 3 (NG certificate is found in EEY records)"},
+                    "el" : {"label" : "Σενάριο 3 (το πιστοποιητικό της ΕΦ υπάρχει στο αρχείο της ΕΕΥ)"}
+                }
+            }
+           ,{
+                "type": "link",
+                "href" : "#r/promotions4/0",
+                "content" : {
+                    "en" : {"label" : "Scenario 4 (Promotion publication not applicable)"},
+                    "el" : {"label" : "Σενάριο 4 (Η προκήρυξη δεν αφορά τον εκπαιδευτικό)"}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Promotions Service Scenarios where an educator can apply for promotion if eligible."},
+                    "el" : {"label" : "Σενάρια υπηρεσίας προαγωγών όπου ένας εκπαιδευτικός μπορεί να κάνει αίτηση για προαγωγή, αν δικαιούται"}
+                }
+            }
+        ]
+    }   
+}

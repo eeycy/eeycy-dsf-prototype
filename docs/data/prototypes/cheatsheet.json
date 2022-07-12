@@ -1,0 +1,441 @@
+{
+    "id":"cheatsheet",
+    "menus" : ["general"],
+    "layout" : "Max-width",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "h1",
+                "content" : {
+                    "en" : {"label": "Header 1 single language"}
+                },
+                "id" : "header1"
+            }
+            ,{
+                "type": "h2",
+                "content" : {
+                    "en" : {"label" : "Header 2"},
+                    "el" : {"label" : "Τίτλος 2"}
+                }
+            }
+            ,{
+                "type": "h3",
+                "content" : {
+                    "en" : {"label" : "Header 3"},
+                    "el" : {"label" : "Τίτλος 3"}
+                }
+            }
+            ,{
+                "type": "h4",
+                "content" : {
+                    "en" : {"label" : "Header 4"},
+                    "el" : {"label" : "Τίτλος 4"}
+                }
+            }
+            ,{
+                "type": "h5",
+                "content" : {
+                    "en" : {"label" : "Header 5"},
+                    "el" : {"label" : "Τίτλος 5"}
+                }
+            }
+            ,{
+                "type": "h6",
+                "content" : {
+                    "en" : {"label" : "Header 6"},
+                    "el" : {"label" : "Τίτλος 6"}
+                }
+            }
+            ,{
+                "type": "link",
+                "content" : {
+                    "en" : {"label" : "This is a link"},
+                    "el" : {"label" : "Αυτός είναι έανς σύνδεσμος"}
+                }
+            }
+            ,{
+                "type": "backLink",
+                "content" : {
+                    "en" : {"label" : "Back"},
+                    "el" : {"label" : "Πίσω"}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Lorem 13 ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet ex nisl. Suspendisse nec massa turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc egestas tellus eget quam volutpat, in vulputate ligula maximus. Integer maximus rutrum eros sit amet laoreet. Vivamus interdum odio est, eu ornare dui mattis tincidunt. Nulla facilisi. Ut mollis lorem sed turpis sagittis, et volutpat eros hendrerit. Maecenas ultrices efficitur ex, eu pellentesque felis luctus non. Aenean feugiat ornare orci, a vehicula purus pharetra nec. Praesent a tempor nisi. Suspendisse efficitur neque ut velit luctus molestie. Vestibulum tempus posuere felis vitae euismod. Nunc mattis tortor quis faucibus facilisis. Vestibulum eu velit tortor. Donec fermentum justo sit amet diam ultrices, ut imperdiet lorem faucibus."},
+                    "el" : {"label" : "Ελληνικά Lorem 13 ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet ex nisl. Suspendisse nec massa turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc egestas tellus eget quam volutpat, in vulputate ligula maximus. Integer maximus rutrum eros sit amet laoreet. Vivamus interdum odio est, eu ornare dui mattis tincidunt. Nulla facilisi. Ut mollis lorem sed turpis sagittis, et volutpat eros hendrerit. Maecenas ultrices efficitur ex, eu pellentesque felis luctus non. Aenean feugiat ornare orci, a vehicula purus pharetra nec. Praesent a tempor nisi. Suspendisse efficitur neque ut velit luctus molestie. Vestibulum tempus posuere felis vitae euismod. Nunc mattis tortor quis faucibus facilisis. Vestibulum eu velit tortor. Donec fermentum justo sit amet diam ultrices, ut imperdiet lorem faucibus."}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Test paragraph with custom classes."},
+                    "el" : {"label" : "Δοκιμαστική Πατάργαφος με custom classes."}
+                },
+                "classes" :["govcy-bg-danger","govcy-text-white","govcy-py-5","govcy-text-center", "govcy-fs-3"]
+            }
+            ,{
+                "type": "text",
+                "required": false,
+                "name": "id",
+                "id" : "id",
+                "maxlength": 10,
+                "content" : {
+                    "en" : {"label" : "Text Box", "placeholder": "Your Id"},
+                    "el" : {"label" : "Πεδίο text.", "placeholder": "Η Ταυτότητά σας"}
+                }
+            }
+            ,{
+                "type": "text",
+                "required": false,
+                "name": "id_hint",
+                "id" : "id_hint",
+                "maxlength": 1010,
+                "content" : {
+                    "en" : {"label" : "Text Box with hint", 
+                            "placeholder": "Your Id",
+                            "hint" : "Lorem 13 ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet ex nisl. Suspendisse nec massa turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc egestas tellus eget quam volutpat, in vulputate ligula maximus. Integer maximus rutrum eros sit amet laoreet. Vivamus interdum odio est, eu ornare dui mattis tincidunt. Nulla facilisi. Ut mollis lorem sed turpis sagittis, et volutpat eros hendrerit. Maecenas ultrices efficitur ex, eu pellentesque felis luctus non. Aenean feugiat ornare orci, a vehicula purus pharetra nec. Praesent a tempor nisi. Suspendisse efficitur neque ut velit luctus molestie. Vestibulum tempus posuere felis vitae euismod. Nunc mattis tortor quis faucibus facilisis. Vestibulum eu velit tortor. Donec fermentum justo sit amet diam ultrices, ut imperdiet lorem faucibus."
+                },
+                    "el" : {"label" : "Πεδίο text με hint", 
+                            "placeholder": "Η Ταυτότητά σας",
+                            "hint" : "Ελληνικά Lorem 13 ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet ex nisl. Suspendisse nec massa turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc egestas tellus eget quam volutpat, in vulputate ligula maximus. Integer maximus rutrum eros sit amet laoreet. Vivamus interdum odio est, eu ornare dui mattis tincidunt. Nulla facilisi. Ut mollis lorem sed turpis sagittis, et volutpat eros hendrerit. Maecenas ultrices efficitur ex, eu pellentesque felis luctus non. Aenean feugiat ornare orci, a vehicula purus pharetra nec. Praesent a tempor nisi. Suspendisse efficitur neque ut velit luctus molestie. Vestibulum tempus posuere felis vitae euismod. Nunc mattis tortor quis faucibus facilisis. Vestibulum eu velit tortor. Donec fermentum justo sit amet diam ultrices, ut imperdiet lorem faucibus."}
+                }
+            }
+            ,{
+                "type": "date",
+                "required": false,
+                "name": "bdate",
+                "id" : "bdate",
+                "content" : {
+                    "en" : {"label" : "Birth Date", 
+                        "hint" : "For emample, 12 11 2007.",
+                        "day" : "Day",
+                        "month" : "Month",
+                        "year" : "Year"
+                },
+                    "el" : {"label" : "Ημερ. Γέννισης", 
+                        "hint" : "Για παράδειγμα, 12 11 2007.",
+                        "day" : "Ημέρα",
+                        "month" : "Μήνας",
+                        "year" : "Χρόνος"
+                    }
+                }
+            }
+            ,{
+                "type" :"fieldsetOpen",
+                "content" : {
+                    "en" : {"legend" : "Contact Address"},
+                    "el" : {"legend" : "Στοιχεία Επικοινωνίας"}
+                }
+            }
+            ,{
+                "type": "text",
+                "required": false,
+                "name": "addresstxt",
+                "id" : "addresstxt",
+                "content" : {
+                    "en" : {"label" : "Address"},
+                    "el" : {"label" : "Διεύθυνση"}
+                }
+            }
+            ,{
+                "type": "text",
+                "required": false,
+                "name": "districttxt",
+                "id" : "districttxt",
+                "content" : {
+                    "en" : {"label" : "District"},
+                    "el" : {"label" : "Επαρχία"}
+                }
+            }
+            ,{
+                "type": "text",
+                "required": false,
+                "name": "postalcodetxt",
+                "id" : "postalcodetxt",
+                "content" : {
+                    "en" : {"label" : "Postal Code"},
+                    "el" : {"label" : "Ταχυδρομικός Κώδικας"}
+                }
+            }
+            ,{
+                "type" :"fieldsetClose"
+            }
+            ,{
+                "type": "file",
+                "name": "file",
+                "id" : "file",
+                "content" : {
+                    "en" : {"label" : "Upload"},
+                    "el" : {"label" : "Ανέβασμα"}
+                }
+            }
+            ,{
+                "type": "checkboxes",
+                "required": false,
+                "name": "checkboxes",
+                "id" : "checkboxes",
+                "content" : {
+                    "en" : {"label" : "Checkboxes",
+                            "hint" : "This is a hint on top check",
+                            "options": [
+                                {"option_id": "chbox1","option_value":"check 1", "option_label":"Check 1", "option_checked":true},
+                                {"option_hint":"This is a hint","option_id": "chbox2","option_value":"check 2", "option_label":"Check 2", "option_checked":false},
+                                {"option_hint":"This is a hint","option_id": "chbox3","option_value":"check 3", "option_label":"Check 3", "option_checked":false}
+                            ]
+                        },
+                    "el" : {"label" : "Επιλογές Checkbox",
+                        "hint" : "Αυτό είναι ένα hint on top check",
+                        "options": [
+                            {"option_id": "chbox1","option_value":"check 1", "option_label":"Επιλογή 1", "option_checked":true},
+                            {"option_hint":"Αυτό είναι ένα hint","option_id": "chbox2","option_value":"check 2", "option_label":"Επιλογή 2", "option_checked":false},
+                            {"option_hint":"Αυτό είναι ένα hint","option_id": "chbox3","option_value":"check 3", "option_label":"Επιλογή 3", "option_checked":false}
+                        ]
+                    }
+                }
+            }
+            ,{
+                "type": "radio",
+                "required": false,
+                "name": "radios",
+                "id" : "radios",
+                "content" : {
+                    "en" : {"label" : "Radio Buttons",
+                            "hint" : "This is a hint on top check",
+                            "options": [
+                                {"option_id": "chbox1","option_value":"check 1", "option_label":"Check 1", "option_checked":true},
+                                {"option_hint":"This is a hint","option_id": "chbox2","option_value":"check 2", "option_label":"Check 2", "option_checked":false},
+                                {"option_hint":"This is a hint","option_id": "chbox3","option_value":"check 3", "option_label":"Check 3", "option_checked":false}
+                            ]
+                        },
+                    "el" : {"label" : "Επιλογές Radio Buttons",
+                        "hint" : "Αυτό είναι ένα hint on top check",
+                        "options": [
+                            {"option_id": "chbox1","option_value":"check 1", "option_label":"Επιλογή 1", "option_checked":true},
+                            {"option_hint":"Αυτό είναι ένα hint","option_id": "chbox2","option_value":"check 2", "option_label":"Επιλογή 2", "option_checked":false},
+                            {"option_hint":"Αυτό είναι ένα hint","option_id": "chbox3","option_value":"check 3", "option_label":"Επιλογή 3", "option_checked":false}
+                        ]
+                    }
+                }
+            }
+            ,{
+                "type": "table",
+                "name": "next",
+                "content" : {
+                    "en" : {"label" : "Table",
+                            "head": ["#","Date","Data"],
+                            "data" : [
+                                ["1","2021-12-01","Lorem ipsum dolor sit amet, consectetur adipiscing elit. "],
+                                ["2","2021-12-21","In hendrerit nisl quis facilisis dapibus. Fusce pulvinar metus in nunc placerat tincidunt. "],
+                                ["3","2021-12-31","Ut lacus diam, tempus molestie laoreet ut, lobortis vitae mi."]
+                            ]
+                        },
+                    "el" : {"label" : "Πίνακας",
+                        "head": ["#","Ημερομηνία","Δεδομένα"],
+                        "data" : [
+                            ["1","2021-12-01","Ελληνικά Lorem ipsum dolor sit amet, consectetur adipiscing elit. "],
+                            ["2","2021-12-21","Ελληνικά In hendrerit nisl quis facilisis dapibus. Fusce pulvinar metus in nunc placerat tincidunt. "],
+                            ["3","2021-12-31","Ελληνικά Ut lacus diam, tempus molestie laoreet ut, lobortis vitae mi."]
+                        ]
+                    }
+                }
+            }
+            ,{
+                "type": "alertError",
+                "content" : {
+                    "en" : {"label" : "There is a problem",
+                        "data" : 
+                        [
+                            {"message":"Enter your fullname"},
+                            {"message":"Second Error"}
+                        ]
+                    },
+                    "el" : {"label" : "Υπάρχει ένα πρόβλημα",
+                        "data" : 
+                        [
+                            {"message":"Εισαγάγετε το όνομά σας"},
+                            {"message":"Δεύτερο λάθος"}
+                        ]
+                    }
+                }
+            }
+            ,{
+                "type": "alertImportant",
+                "content" : {
+                    "en" : {"label" : "Important",
+                        "data" : 
+                        [
+                            "Success: AIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                            ,"<a href='#'>View your application</a>"
+                        ]
+                    },
+                    "el" : {"label" : "Συμαντικό",
+                        "data" : 
+                        [
+                            "Επιτυχία: Η τεχνητή νοημοσύνη είναι ένα από καιρό καθιερωμένο γεγονός ότι ο αναγνώστης αποσπάται από το αναγνώσιμο περιεχόμενο μιας σελίδας όταν κοιτάζει τη διάταξή της."
+                            ,"<a href='#'>Προβολή της αίτησής σας</a>" 
+                        ]
+                    }
+                }
+            }
+            ,{
+                "type": "alertSuccess",
+                "content" : {
+                    "en" : {"label" : "Success",
+                        "data" : 
+                        [
+                            "Success: AIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                            ,"Contact <a href='mailto:support@gov.cy'>support@gov.cy</a> if you think your application has a problem"
+                        ]
+                    },
+                    "el" : {"label" : "Επιτυχία",
+                        "data" : 
+                        [
+                            "Επιτυχία: Η τεχνητή νοημοσύνη είναι ένα από καιρό καθιερωμένο γεγονός ότι ο αναγνώστης αποσπάται από το αναγνώσιμο περιεχόμενο μιας σελίδας όταν κοιτάζει τη διάταξή της."
+                            ,"Επικοινωνήστε με το <a href='mailto:support@gov.cy'>support@gov.cy</a> εάν πιστεύετε ότι η αίτησή σας έχει πρόβλημα" 
+                        ]
+                    }
+                }
+            }
+            ,{
+                "type": "successPanel",
+                "content" : {
+                    "en" : {
+                        "head" : "Your application has been completed",
+                        "label" : "The application reference number is :<br>191292a"
+                    },
+                    "el" : {
+                        "head" : "Η αίτηση έχει ολοκληρωθεί",
+                        "label" : "Ο αριθμός αναφοράς σας είναι ο εξής:<br>191292a"
+                    }
+                }
+            }
+            ,{
+                "type": "warning",
+                "content" : {
+                    "en" : {
+                        "label" : "Warning message here."
+                    },
+                    "el" : {
+                        "label" : "προειδοποιητικό μήνυμα."
+                    }
+                }
+            }
+            ,{
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {
+                        "label" : "<p class='govcy-mb-3'><b>Lists</b></p>"
+                    },
+                    "el" : {
+                        "label" : "<p class='govcy-mb-3'><b>Λίστες</b></p>"
+                    }
+                }
+            }
+            ,{
+                "type": "unorderedList",
+                "content" : {
+                    "en" : {"data" :[ 
+                        "you were married or entered into a civil partnership in another country, and your husband or civil partner has social insurance contributions (can include army credits)",
+                        "you were a student in the past 2 years",
+                        "you have had social insurance contributions in another country"
+                        ]},
+                    "el" : {"data" :[ 
+                        "παντρευτήκατε ή συνάψατε σύμφωνο συμβίωσης σε άλλη χώρα, και ο σύζυγος/σύντροφος σας έχει εισφορές κοινωνικών ασφαλίσεων (συμπεριλαμβανομένων και πιστώσεων Εθνικής Φρουράς)",
+                        "ήσασταν εσείς ή ο σύζυγος* σας φοιτητές κατά τα τελευταία 2 χρόνια",
+                        "έχετε καταβάλει εισφορές κοινωνικών ασφαλίσεων σε άλλη χώρα"
+                        ]}
+                }
+            }
+            ,{
+                "type": "orderedList",
+                "content" : {
+                    "en" : {"data" :[ 
+                        "you were married or entered into a civil partnership in another country, and your husband or civil partner has social insurance contributions (can include army credits)",
+                        "you were a student in the past 2 years",
+                        "you have had social insurance contributions in another country"
+                        ]},
+                    "el" : {"data" :[ 
+                        "παντρευτήκατε ή συνάψατε σύμφωνο συμβίωσης σε άλλη χώρα, και ο σύζυγος/σύντροφος σας έχει εισφορές κοινωνικών ασφαλίσεων (συμπεριλαμβανομένων και πιστώσεων Εθνικής Φρουράς)",
+                        "ήσασταν εσείς ή ο σύζυγος* σας φοιτητές κατά τα τελευταία 2 χρόνια",
+                        "έχετε καταβάλει εισφορές κοινωνικών ασφαλίσεων σε άλλη χώρα"
+                        ]}
+                }
+            }
+            ,{
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {
+                        "label" : "<fieldset class='govcy-fieldset govcy-mb-0'><legend class='govcy-legend'>Email Adress</legend><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Use my CY Login account email, <b>me@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>I’d like to use a different email address<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Email address</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>We’ll only use this for your child birth grant application</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
+                    },
+                    "el" : {
+                        "label" : "<fieldset class='govcy-fieldset govcy-mb-0'><legend class='govcy-legend'>Διεύθυνση ηλ. ταχυδρομείου</legend><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Τη διεύθυνση ηλ. ταχυδρομείου που είναι καταχωρημένη στο προφίλ μου στο CY Login: <b>me@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>Θα ήθελα να καταχωρήσω διαφορετική διεύθυνση<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Διεύθυνση ηλ. ταχυδρομείου</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>Θα χρησιμοποιηθεί μόνο για τους σκοπούς αυτής της αίτησης</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
+                    }
+                }
+            }
+            ,{
+                "type" :"divRowOpen"
+            }
+            ,{
+                "type" :"divColumnOpen",
+                "colnum": "5",
+                "classes" : ["govcy-my-2"]
+            }
+            ,{
+                "type": "button",
+                "subtype": "primary",
+                "name": "back",
+                "id":"backbtn1",
+                "classes" : ["govcy-mx-2"],
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "getData","data":""},
+                            {"action" : "link","data":"#p/index"}
+                        ]
+                    }
+                ],
+                "content" : {
+                    "en" : {
+                        "label" : "Back"
+                    },
+                    "el" : {
+                        "label" : "Πίσω"
+                    }
+                }
+            }
+            ,{
+                "type": "button",
+                "subtype": "primary",
+                "name": "back",
+                "id":"backbtn2",
+                "classes" : ["govcy-mx-2"],
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "getData","data":""},
+                            {"action" : "link","data":"#p/index"}
+                        ]
+                    }
+                ],
+                "content" : {
+                    "en" : {
+                        "label" : "Back 1"
+                    },
+                    "el" : {
+                        "label" : "Πίσω 1"
+                    }
+                }
+            }
+            ,{
+                "type" :"divClose"
+            }
+            ,{
+                "type" :"divClose"
+            }
+        ]
+    }   
+}

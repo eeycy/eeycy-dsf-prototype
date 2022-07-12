@@ -1,0 +1,52 @@
+{
+    "id":"promotions/notApplicable",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "preScript" : "isLoggedIn.js",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "backLink",
+                "DOMId" : "before-main",
+                "content" : {
+                    "en" : {"label" : "Back"},
+                    "el" : {"label" : "Πίσω"}
+                }
+            }
+            ,{
+                "type": "divEmpty",
+                "id" : "alerts"
+            }
+            ,{
+                "type": "h1",
+                "content" : {
+                    "en" : {"label" : "You cannot proceed with this promotion application"},
+                    "el" : {"label" : "Δεν μπορείτε να συνεχίσετε την αίτηση για προαγωγή"}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "There are no posts available for which you can apply for promotion, based on the related publication."},
+                    "el" : {"label" : "Δεν υπάρχουν θέσεις προαγωγής για τις οποίες μπορείτε να υποβάλετε αίτηση, με βάση τη σχετική προκήρυξη."}
+                }
+            }
+            ,{
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" : "<p class='govcy-mb-3'>Find information about <a href='http://www.eey.gov.cy'>promotion posts</a>.</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Ενημερωθείτε για τις <a href='http://www.eey.gov.cy'>θέσεις προαγωγής</a>.</p>"}
+                }
+            }
+            ,{
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" : "<p class='govcy-mb-3'>Find information about <a href='http://www.eey.gov.cy'>position service plans</a>.</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Ενημερωθείτε για τα <a href='http://www.eey.gov.cy'>σχέδια υπηρεσίας</a>.</p>"}
+                }
+            }
+        ]
+    }   
+}

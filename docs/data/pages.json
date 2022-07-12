@@ -1,0 +1,73 @@
+{
+    "defaultPage" : "index",
+    "menus" : 
+        {
+            "general": { 
+                "DOMId": "headerNavBar" 
+                ,"items" : [
+                    {"id" :"homeMenu", "label":{"en":"Home","el":"Αρχική"}, "url" :"#"}
+                ]
+            }
+        }
+    ,
+    "pages" : {
+        "index":{"id":"index"}
+        ,"login":{"id":"login"}
+        ,"promotions/start":{"id":"promotions/start"}
+        ,"promotions/contactDetails":{"id":"promotions/contactDetails"}
+        ,"promotions/notApplicable":{"id":"promotions/notApplicable"}
+        ,"promotions/positionSelection":{"id":"promotions/positionSelection"}
+        ,"promotions/qualificationsCheck":{"id":"promotions/qualificationsCheck"}
+        ,"promotions/qualifications":{"id":"promotions/qualifications"}
+        ,"promotions/qualifications2":{"id":"promotions/qualifications2"}
+        ,"promotions/qualificationsAdd":{"id":"promotions/qualificationsAdd"}
+        ,"promotions/loadEFCertificate":{"id":"promotions/loadEFCertificate"}
+        ,"promotions/loadEFCertificateNA":{"id":"promotions/loadEFCertificateNA"}
+        ,"promotions/loadEFCertificateE":{"id":"promotions/loadEFCertificateE"}
+        ,"promotions/scenarioCheck":{"id":"promotions/scenarioCheck"}
+        ,"promotions/legalStatement":{"id":"promotions/legalStatement"}
+        ,"promotions/confirm":{"id":"promotions/confirm"}
+        ,"cheatsheet":{"id":"cheatsheet"}
+        ,"signOut":{"id":"signOut"}
+    },
+    "routes" : {
+        "promotions1" : [
+            "promotions/start"
+            ,"login"
+            ,"promotions/contactDetails"
+            ,"promotions/positionSelection"
+            ,"promotions/qualificationsCheck"
+			,"promotions/loadEFCertificate"
+            ,"promotions/scenarioCheck"
+            ,"promotions/legalStatement"
+            ,"promotions/confirm"
+            ]
+        ,"promotions2" : [
+            "promotions/start"
+            ,"login"
+            ,"promotions/contactDetails"
+            ,"promotions/positionSelection"
+            ,"promotions/qualificationsCheck"
+			,"promotions/loadEFCertificateNA"
+            ,"promotions/scenarioCheck"
+            ,"promotions/legalStatement"
+            ,"promotions/confirm"
+            ]
+        ,"promotions3" : [
+            "promotions/start"
+            ,"login"
+            ,"promotions/contactDetails"
+            ,"promotions/positionSelection"
+            ,"promotions/qualificationsCheck"
+			,"promotions/loadEFCertificateE"
+            ,"promotions/scenarioCheck"
+            ,"promotions/legalStatement"
+            ,"promotions/confirm"
+            ]
+        ,"promotions4" : [
+            "promotions/start"
+            ,"login"
+            ,"promotions/notApplicable"
+            ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id":"promotions/loadEFCertificateNA",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "preScript" : "isLoggedIn.js",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "backLink",
+                "DOMId" : "before-main",
+                "content" : {
+                    "en" : {"label" : "Back"},
+                    "el" : {"label" : "Πίσω"}
+                }
+            }
+            ,{
+                "type": "divEmpty",
+                "id" : "alerts"
+            }
+            ,{
+                "type": "h1",
+                "content" : {
+                    "en" : {"label" : "National Guard Service"},
+                    "el" : {"label" : "Υπηρεσία στην Εθνική Φρουρά"}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "You don't need to upload certificate of militaty recruitment, type \"A\"."},
+                    "el" : {"label" : "Δεν χρειάζεται να υποβάλετε το πιστοποιητικό στρατολογικής κατάστασης \"Α\"."}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Continue to next step."},
+                    "el" : {"label" : "Προχωρήστε στο επόμενο βήμα."}
+                }
+            }
+            ,{
+                "type": "button",
+                "subtype": "primary",
+                "id": "nextRoutebtn",
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "nextOnRoute","data":""}
+                        ]
+                    }
+                ],
+                "content" : {
+                    "en" : {"label" : "Next"},
+                    "el" : {"label" : "Επόμενο"}
+                }
+            }
+        ]
+    }   
+}

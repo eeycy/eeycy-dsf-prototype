@@ -1,0 +1,114 @@
+{
+    "id":"promotions/start",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "styles": 
+        {
+        ".bdigitalH1" : "/*color: #31576F!important;font-size:36px;*/",
+        ".bdigitalH2" : "/*color: #31576F!important;font-size:30px;*/",
+        ".bdigitalAnchor" :"/*color: #1c809d;text-decoration: none;*/"
+        }
+    ,
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "h1",
+                "classes" : [ "bdigitalH1"],
+                "content" : {
+                    "en" : {"label" : "Apply for a promotion"},
+                    "el" : {"label" : "Αίτηση για Προαγωγή"}
+                }
+            },
+            {
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" : "<p class='govcy-mb-3'>You can apply for a promotion if:<ul><li>you are an educator</li><li>you are eligible for the position</li></ul></p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Μπορείτε να υποβάλετε αίτηση για προαγωγή, εαν:<ul><li>είστε μόνιμος/η εκπαιδευτικός στη δημόσια εκπαίδευση</li><li>τα προσόντα σας εμπίπτουν στο σχέδιο υπηρεσίας της θέσης προαγωγής</li></ul></p>"}
+                }
+            },
+            {
+                "type": "h2",
+                "classes" : ["bdigitalH2"],
+                "content" : {
+                    "en" : {"label" : "What you’ll need to use this service"},
+                    "el" : {"label" : "Τι θα χρειαστείτε για την αίτηση"}
+                }
+            },
+			{
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" : "<p class='govcy-mb-3'>You’ll need a military service certificate (Type A), in case you haven't submited it during a previous promotions procedure.</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Θα χρειαστείτε πιστοποιητικό υπηρεσίας (Έντυπο Α) από το στράτο, νοουμένου ότι δεν το έχετε υποβάλει σε προηγούμενη διαδικασία.</p>"}
+                }
+            },
+            {
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" : "<p class='govcy-mb-3'>You’ll need a CY Login account. It's a secure personal profile that gives you access to government services.</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Θα χρειαστείτε προφίλ στο CY Login. Πρόκειται για ένα ασφαλές προσωπικό προφίλ, το οποίο σας δίνει πρόσβαση σε κυβερνητικές υπηρεσίες.</p>"}
+                }
+            },
+                        {
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" : "<p class='govcy-mb-3'>If you have an Ariadni account, you can use the same login details to use CY Login. </p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Αν έχετε λογαριασμο στη διαδικτυακή πύλη Αριάδνη, μπορείτε να χρησιμοποιήσετε τα ίδια στοιχεία και για το CY Login.</p>"}
+                }
+            },
+            {
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" :  "<p class='govcy-mb-3'>If you do not have either of these accounts, <span class='bdigitalAnchor'><a href='https://cge.cyprus.gov.cy/cyloginregistration/register'>register for a CY Login account</a></span>.</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Αν δεν έχετε κανένα από τα δύο, μπορείτε να <span class='bdigitalAnchor'><a href='https://cge.cyprus.gov.cy/cyloginregistration/register'>κάνετε εγγραφή για προφίλ στο CY Login</a></span>.</p>"}
+                }
+            },
+            {
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" :  "<p class='govcy-mb-3'>You'll need to <span class='bdigitalAnchor'><a href='https://cge.cyprus.gov.cy/cyloginregistration/knowledgebase/help/identification'>'authenticate' your CY Login account</a></span> when you use it for the first time. This means confirming your identity with CY Login. You can do this through online banking, or by going to a Citizen Service Centre or District Post Office.</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'><span class='bdigitalAnchor'><a href='https://cge.cyprus.gov.cy/cyloginregistration/knowledgebase/help/identification'>Το προφίλ σας στο CY Login θα πρέπει να ‘ταυτοποιηθεί’</a></span> προτού χρησιμοποιήσετε αυτή την υπηρεσία για πρώτη φορα. Αυτό σημαίνει πως πρέπει να συνδέσετε την ταυτότητά σας με το προφίλ σας, μέσω του online banking σας, ή με επίσκεψη στα ΚΕΠ/ΚΕ.ΠΟ.</p>"}
+                }
+            },
+            {
+                "type": "button",
+                "subtype": "primary",
+                "id":"nextRoutebtn",
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "nextOnRoute","data":""}
+                        ]
+                    }
+                ],
+                "content" : {
+                    "en" : {"label" : "Get started"},
+                    "el" : {"label" : "Ξεκινήστε τη διαδικασία"}
+                }
+            }
+            ,{
+                "type": "h2",
+                "classes" : ["bdigitalH2"],
+                "content" : {
+                    "en" : {"label" : "Get help and advice"},
+                    "el" : {"label" : "Ζητήστε βοήθεια και καθοδήγηση"}
+                }
+            }
+            ,{
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" : "<p class='govcy-mb-3'>For eligibility questions, ask the Educational Commission Service team <br><span class='bdigitalAnchor'><a href='mailto:support@eey.gov.cy'>support@eey.gov.cy</a></span><br>Telephone: 22409710<br>Open: Monday to Friday, 8am to 3pm</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Επικοινωνήστε με την Επιτροπή Εκπαιδευτικής Υπηρεσίας αν δεν είστε σίγουρη/ος αν δικαιούστε προαγωγής.<br><span class='bdigitalAnchor'><a href='mailto:support@eey.gov.cy'>support@eey.gov.cy</a></span><br>Τηλέφωνο: 22602660<br>Ωράριο: Δευτέρα με Παρασκευή, 8.00 π.μ. - 3.00 μ.μ.</p>"}
+                }
+            }
+            ,{
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" : "<p class='govcy-mb-3'>For CY Login or Ariadni issues, ask the Ariadni Support team <br><span class='bdigitalAnchor'><a href='mailto:ariadnisupport@dits.dmrid.gov.cy'>ariadnisupport@dits.dmrid.gov.cy</a></span><br>Telephone: 22601395</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Για βοήθεια για θέματα που αφορούν στο CY Login, ή τη διαδικτυακή πύλη Αριάδνη, επικοινωνήστε με την ομάδα υποστήριξης της Αριάδνης<br><span class='bdigitalAnchor'><a href='mailto:ariadnisupport@dits.dmrid.gov.cy'>ariadnisupport@dits.dmrid.gov.cy</a></span><br>Τηλέφωνο: 22601395</p>"}
+                }
+            }
+        ]
+    }   
+}

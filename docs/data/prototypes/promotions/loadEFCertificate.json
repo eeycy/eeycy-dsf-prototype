@@ -1,0 +1,94 @@
+{
+    "id":"promotions/loadEFCertificate",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "preScript" : "isLoggedIn.js",
+    "postScript" : "promotions/loadEFCertificate.js",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "backLink",
+                "DOMId" : "before-main",
+                "content" : {
+                    "en" : {"label" : "Back"},
+                    "el" : {"label" : "Πίσω"}
+                }
+            }
+            ,{
+                "type": "divEmpty",
+                "id" : "alerts"
+            }
+            ,{
+                "type": "h1",
+                "content" : {
+                    "en" : {"label" : "National Guard Service"},
+                    "el" : {"label" : "Υπηρεσία στην Εθνική Φρουρά"}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Upload the certificate of militaty recruitment, type \"A\", which certifies your military service."},
+                    "el" : {"label" : "Ανεβάστε το πιστοποιητικό στρατολογικής κατάστασης \"Α\" το οποίο πιστοποιεί τη στρατιωτική σας θητεία."}
+                }
+            }
+            ,{
+                "type": "fieldsetOpen",
+                "content" : {
+                    "en" : {"legend" : ""},
+                    "el" : {"legend" : ""}
+                }
+            }
+			,{
+				"type": "file",
+				"label": {"en":"Choose File", "el":"Επιλογή Αρχείου"}, 
+				"name": "efFile",
+				"id" : "efFile",
+				"classes": ["govcy-bg-danger",		"govcy-text-white"],
+				"content" : {
+					"en" : {"label" : "File Selection"},
+					"el" : {"label" : "Επιλογή Αρχείου"}
+				}
+			}
+			,{
+                "type": "fieldsetClose"
+            }
+            ,{
+                "type": "button",
+                "subtype": "primary",
+                "id":"nextRoutebtn",
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "validate","data":""},
+                            {"action" : "getData","data":""},
+                            {"action" : "nextOnRoute","data":""}
+                        ]
+                    }
+                ],
+                "validationsSummary" :"alerts",
+                "validations" : [
+                    {"validation" : "required", "elementName":"efFile","elementId":"efFile", "elementType":"file", "functionName": "checkFile"}
+                ],
+                "content" : {
+                    "en" : {
+                        "label" : "Next",
+                        "validationSummaryTitle" : "There is a problem",
+                        "validationsLabels" : {
+                            "required.efFile" : "Please select a file."
+                        }
+                    },
+                    "el" : {
+                        "label" : "Επόμενο",
+                        "validationSummaryTitle" : "Υπάρχει ένα πρόβλημα",
+                        "validationsLabels" : {
+                            "required.efFile" : "Παρακαλώ επιλέξετε ένα αρχείο."
+                        }
+                    }
+                }
+            }
+        ]
+    }   
+}

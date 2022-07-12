@@ -1,0 +1,65 @@
+{
+    "id":"promotions/confirm",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "preScript" : "isLoggedIn.js",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "successPanel",
+                "content" : {
+                    "en" : {"head" : "Your application has been sent",
+                            "label": "Your reference number<br>HDJ2123F"
+                        },
+                    "el" : {"head" : "Η αίτηση σας έχει υποβληθεί",
+                            "label": "O αριθμός αίτησης σας<br>HDJ2123F"
+                        }
+                }
+            }
+            ,{
+                "type": "h2",
+                "content" : {
+                    "en" : {"label" : "What happens next"},
+                    "el" : {"label" : "Τα επόμενα βήματα"}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Your application will be processed by Educational Commission Service."},
+                    "el" : {"label" : "Η αίτηση σας θα τύχει επεξεργασίας από την Επιτροπή Εκπαιδευτικής Υπηρεσίας."}
+                }
+            }
+            ,{
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" : "<p class='govcy-mb-3'>You can <a href='javascript:window.print();'>print or save a copy of this page</a> for your records.</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Μπορείτε να <a href='javascript:window.print();'>εκτυπώσετε ή να αποθηκεύσετε αυτή τη σελίδα</a> για το αρχείο σας.</p>"}
+                }
+            }
+            ,{
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" : "<p class='govcy-mb-3'>You may see <a href='#p/promotions/0'>history</a> of yout promotion applications.</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Μπορείτε να δείτε το <a href='#p/promotions/0'>ιστορικό</a> των αιτήσεών σας για προαγωγή.</p>"}
+                }
+            }
+            ,{
+                "type": "h2",
+                "content" : {
+                    "en" : {"label" : "Apply for another position"},
+                    "el" : {"label" : "Αίτηση για άλλη θέση προαγωγής"}
+                }
+            }
+            ,{
+                "type": "spanHTML",
+                "content" : {
+                    "en" : {"label" : "<p class='govcy-mb-3'>Start a <a href='#p/promotions/0'>new application</a> for promotion.</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Υποβολή <a href='#p/promotions/0'>νέας αίτησης</a> για προαγωγή.</p>"}
+                }
+            }
+        ]
+    }
+}
