@@ -28,12 +28,26 @@
                     "el" : {"label" : "Σενάριο 1 (υποβολή πιστοποιητικού ΕΦ)"}
                 }
             }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Scenario in which, the teacher has to upload a NG service certificate."},
+                    "el" : {"label" : "Σενάριο στο οποίο ο εκπαιδευτικός πρέπει να υποβάλει πιστοποιητικό υπηρεσίας στην ΕΦ"}
+                }
+            }
            ,{
                 "type": "link",
                 "href" : "#r/promotions2/0",
                 "content" : {
                     "en" : {"label" : "Scenario 2 (submittion of NG certificate not required)"},
                     "el" : {"label" : "Σενάριο 2 (δεν απαιτείται η υποβολή πιστοποιητικού ΕΦ)"}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Scenario in which, the teacher need not to upload a NG service certificate."},
+                    "el" : {"label" : "Σενάριο στο οποίο ο εκπαιδευτικός δεν χρειάζεται να υποβάλει πιστοποιητικό υπηρεσίας στην ΕΦ"}
                 }
             }
            ,{
@@ -44,12 +58,26 @@
                     "el" : {"label" : "Σενάριο 3 (το πιστοποιητικό της ΕΦ υπάρχει στο αρχείο της ΕΕΥ)"}
                 }
             }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Scenario in which, the EEY has a NG service certificate in teacher's record."},
+                    "el" : {"label" : "Σενάριο στο οποίο το πιστοποιητικό υπηρεσίας στην ΕΦ υπάρχει ήδη στο αρχείο της ΕΕΥ"}
+                }
+            }
            ,{
                 "type": "link",
                 "href" : "#r/promotions4/0",
                 "content" : {
                     "en" : {"label" : "Scenario 4 (Promotion publication not applicable)"},
                     "el" : {"label" : "Σενάριο 4 (Η προκήρυξη δεν αφορά τον εκπαιδευτικό)"}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Scenario in which teacher cannot apply for the promotion positiion published."},
+                    "el" : {"label" : "Σενάριο στο οποίο ο εκπαιδευτικός δεν μπορεί να υποβάλει αίτηση για τις θέσεις που προκηρύχθηκαν"}
                 }
             }
             ,{
