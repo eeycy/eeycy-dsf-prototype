@@ -1,5 +1,5 @@
 function checkLegal(){
-	console.log(document.forms["components"]["legalCheck"].value);
+	console.log("Checking Legal...");
     if (document.forms["components"]["legalCheck"].value == "") {
 		console.log("Return false");
 		return false;

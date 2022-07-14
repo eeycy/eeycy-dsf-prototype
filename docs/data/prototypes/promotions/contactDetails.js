@@ -1,7 +1,13 @@
 function checkEmail(){
     if ((document.forms["components"]["emailRadio"].value == "custom") 
-        && document.forms["components"]["emailAddress"].value =="") return false;
+        && document.forms["components"]["emailAddress"].value == "") return false;
     else if ((document.forms["components"]["emailRadio"].value == "custom") 
     && !is.email( document.forms["components"]["emailAddress"].value )) return false;
     else return true;
+}
+
+function checkPhone(){
+    if ((document.forms["components"]["phoneRadio"].value == "custom") 
+        && document.forms["components"]["phoneNum"].value == "") return false;
+   else return true;
 }

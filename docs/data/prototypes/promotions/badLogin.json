@@ -1,0 +1,33 @@
+{
+    "id":"promotions/badLogin",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "h1",
+                "content" : {
+                    "en" : {"label" : "Your are not authorized."},
+                    "el" : {"label" : "Δεν είστε εξουσιοδοτημένοι."}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "You must have a verified CY Login account in order to use our service."},
+                    "el" : {"label" : "Πρέπει να έχετε έναν επαληθευμένο λογαριασμό CY Login για να χρησιμοποιήσετε την υπηρεσία μας."}
+                }
+            }
+            ,{
+                "type": "link",
+                "href": "#p/signOut",
+                "content" : {
+                    "en" : {"label" : "Sign Out"},
+                    "el" : {"label" : "Αποσύνδεση"}
+                }
+            }
+        ]
+    }
+}

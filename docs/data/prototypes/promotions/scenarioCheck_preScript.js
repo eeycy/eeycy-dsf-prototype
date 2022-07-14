@@ -1,11 +1,14 @@
 
 //--------------- fill data on form -------
-if (sessionStorage["fullName"]) {
-    if (sessionStorage["fullName"] != "") $("#fullNameS").text(sessionStorage["fullName"]);
-}
-if (sessionStorage["fileNumber"]) {
-    if (sessionStorage["fileNumber"] != "") $("#fileNumberS").text(sessionStorage["fileNumber"]);
-}
+//if (sessionStorage["fullName"]) {
+//    if (sessionStorage["fullName"] != "") $("#fullNameS").text(sessionStorage["fullName"]);
+//}
+$("#fullNameS").text("Έλενα Νικολάου");
+
+//if (sessionStorage["fileNumber"]) {
+//    if (sessionStorage["fileNumber"] != "") $("#fileNumberS").text(sessionStorage["fileNumber"]);
+//}
+$("#fileNumberS").text("123456");
 
 
 if (sessionStorage["positionRadio"]) {

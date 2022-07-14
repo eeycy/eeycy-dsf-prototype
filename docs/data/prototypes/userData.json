@@ -2,21 +2,24 @@
     "elena" : 
     {
         "name" : "Elena Nicolaou",
-        "email" : "me@example.com.cy",
+		"phoneN" : "99876543",
+        "email" : "elena@example.com",
         "isVerified" : true,
         "type" : "person",
-        "children": 
+        "qualifications": 
         [
             {
-                "name": "Κωνσταντίνος",
-                "dob" : "20/09/2021"
-            }
-        ], 
-        "bank": 
+                "title": "MSc in Networks",
+                "institution" : "University of Cyprus",
+				"country" : "Cyprus",
+				"year" : "1999"
+            },
             {
-                "beneficiary" : "Elena Nicolaou", 
-                "bankName": "Bank of Cyprus", 
-                "IBAN":"CY12345678901234567"
+                "title": "PhD in Educational Research",
+                "institution" : "University of Manchester",
+				"country" : "UK",
+				"year" : "2005"
             }
+        ]
     }
 }

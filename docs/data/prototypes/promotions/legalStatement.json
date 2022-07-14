@@ -36,6 +36,7 @@
             }
 			,{
 				"type": "checkboxes",
+                "required": true,
 				"name": "legalCheck",
 				"id" : "legalCheck",
 				"classes": ["govcy-bg-danger","govcy-text-white"],
@@ -72,21 +73,21 @@
                 ],
                 "validationsSummary" :"alerts",
                 "validations" : [
-                    {"validation" : "required", "elementName":"legalCheck","elementId":"legalCheck", "elementType":"checkboxes", "functionName": "checkLegal"}
+                    {"validation" : "custom", "elementName":"legalCheck","elementId":"legalCheck", "elementType":"checkboxes", "functionName": "checkLegal"}
                 ],
                 "content" : {
                     "en" : {
                         "label" : "Next",
                         "validationSummaryTitle" : "There is a problem",
                         "validationsLabels" : {
-                            "required.legalCheck" : "Please accept declaration."
+                            "custom.legalCheck" : "Please accept declaration."
                         }
                     },
                     "el" : {
                         "label" : "Επόμενο",
                         "validationSummaryTitle" : "Υπάρχει ένα πρόβλημα",
                         "validationsLabels" : {
-                            "required.legalCheck" : "Παρακαλώ επιβεβαιώστε τη συγκατάθεση."
+                            "custom.legalCheck" : "Παρακαλώ επιβεβαιώστε τη συγκατάθεση."
                         }
                     }
                 }

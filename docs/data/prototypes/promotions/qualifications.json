@@ -82,7 +82,7 @@
                     {
                         "on":"click","actions" : [
                             {"action" : "getData","data":""},
-							{"action" : "link", "data":"#r/promotions/4"}
+							{"action" : "goBack","data":""}
                         ]
                     }
                 ],

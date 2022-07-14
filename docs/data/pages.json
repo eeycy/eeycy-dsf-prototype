@@ -13,6 +13,7 @@
     "pages" : {
         "index":{"id":"index"}
         ,"login":{"id":"login"}
+        ,"promotions/badLogin":{"id":"birthBenefit/badLogin"}
         ,"promotions/start":{"id":"promotions/start"}
         ,"promotions/contactDetails":{"id":"promotions/contactDetails"}
         ,"promotions/notApplicable":{"id":"promotions/notApplicable"}

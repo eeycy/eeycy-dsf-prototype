@@ -46,7 +46,6 @@
 				"label": {"en":"Choose File", "el":"Επιλογή Αρχείου"}, 
 				"name": "efFile",
 				"id" : "efFile",
-				"classes": ["govcy-bg-danger",		"govcy-text-white"],
 				"content" : {
 					"en" : {"label" : "File Selection"},
 					"el" : {"label" : "Επιλογή Αρχείου"}

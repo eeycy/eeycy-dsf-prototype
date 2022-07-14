@@ -28,64 +28,63 @@
                 }
             }
             ,{
-                "type": "text",
-                "required": false,
-                "name": "fullName",
-                "id" : "fullName",
-                "maxlength": 400,
-                "charSubType":"20",
+                "type": "spanHTML",
                 "content" : {
-                    "en" : {"label" : "Full Name"},
-                    "el" : {"label" : "Ονοματεπώνυμο"}
+                    "en" : {
+                        "label" : "<b>Full Name</b><br>Έλενα Νικολάου<br><br>"
+                    },
+                    "el" : {
+                        "label" : "<b>Ονοματεπώνυμο</b><br>Έλενα Νικολάου<br><br>"
+                    }
                 }
             }
             ,{
-                "type": "text",
-                "required": false,
-                "name": "fileNumber",
-                "id" : "fileNumber",
-                "maxlength": 400,
-                "charSubType":"20",
+                "type": "spanHTML",
                 "content" : {
-                    "en" : {"label" : "File Number"},
-                    "el" : {"label" : "Αριθμός Φακέλου"}
+                    "en" : {
+                        "label" : "<b>File Number</b><br>123456<br><br>"
+                    },
+                    "el" : {
+                        "label" : "<b>Αριθμός Φακέλου</b><br>123456<br><br>"
+                    }
                 }
             }
             ,{
-                "type": "text",
-                "required": false,
-                "name": "specialty",
-                "id" : "specialty",
-                "maxlength": 400,
-                "charSubType":"20",
+                "type": "spanHTML",
                 "content" : {
-                    "en" : {"label" : "Specialty"},
-                    "el" : {"label" : "Ειδικότητα"}
+                    "en" : {
+                        "label" : "<b>Specialty</b><br>Πληροφορική / Επιστήμη Η/Υ<br><br>"
+                    },
+                    "el" : {
+                        "label" : "<b>Ειδικότητα</b><br>Πληροφορική / Επιστήμη Η/Υ<br><br>"
+                    }
                 }
             }
             ,{
-                "type": "text",
-                "required": false,
-                "name": "position",
-                "id" : "position",
-                "maxlength": 400,
-                "charSubType":"20",
+                "type": "spanHTML",
                 "content" : {
-                    "en" : {"label" : "Position"},
-                    "el" : {"label" : "Θέση"}
+                    "en" : {
+                        "label" : "<b>Position</b><br>Καθηγητής/τρια<br><br>"
+                    },
+                    "el" : {
+                        "label" : "<b>Θέση</b><br>Καθηγητής/τρια<br><br>"
+                    }
                 }
             }
             ,{
-                "type": "text",
-                "required": false,
-                "name": "phoneNum",
-                "id" : "phoneNum",
-                "maxlength": 200,
-                "charSubType":"20",
+                "type": "spanHTML",
+                "classes" :["govcy-mb-4"],
                 "content" : {
-                    "en" : {"label" : "Telephone number"},
-                    "el" : {"label" : "Αριθμός τηλεφώνου"}
+                    "en" : {
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='phoneRadioControl'><span id='phoneRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Use phone stored by ESC: <b>99123456</b><input class='govcy-radio-input' value='default' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>I’d like to use a different phone number<input class='govcy-radio-input' value='custom' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='phoneN'><div id='phoneNumIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Telephone number</label><span id='phoneNumIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>We’ll only use this for your promotion application</span><input type='text' name='phoneNum' class='govcy-text-input'/></div></div></div></fieldset>"
+                    },
+                    "el" : {
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='phoneRadioControl'><span id='phoneRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Το τηλέφωνο που είναι καταχωρημένο στο αρχείο της ΕΕΥ: <b>99123456</b><input class='govcy-radio-input' value='default' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>Θα ήθελα να καταχωρήσω διαφορετικό τηλέφωνο<input class='govcy-radio-input' value='custom' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='phoneN'><div id='phoneNumIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Τηλέφωνο</label><span id='phoneNumIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>Θα χρησιμοποιηθεί μόνο για τους σκοπούς αυτής της αίτησης</span><input type='text' name='phoneNum' class='govcy-text-input'/></div></div></div></fieldset>"
+                    }
                 }
+            }
+            ,{
+                "type": "fieldsetClose"
             }
             ,{
                 "type": "fieldsetOpen",
@@ -99,10 +98,10 @@
                 "classes" :["govcy-mb-4"],
                 "content" : {
                     "en" : {
-                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Use my CY Login account email, <b>me@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>I’d like to use a different email address<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Email address</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>We’ll only use this for your child birth grant application</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Use email stored by ESC: <b>elena@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>I’d like to use a different email address<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Email address</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>We’ll only use this for your promotion application</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
                     },
                     "el" : {
-                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Τη διεύθυνση ηλ. ταχυδρομείου που είναι καταχωρημένη στο προφίλ μου στο CY Login: <b>me@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>Θα ήθελα να καταχωρήσω διαφορετική διεύθυνση<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Διεύθυνση ηλ. ταχυδρομείου</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>Θα χρησιμοποιηθεί μόνο για τους σκοπούς αυτής της αίτησης</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Τη διεύθυνση ηλ. ταχυδρομείου που είναι που είναι καταχωρημένο στο αρχείο της ΕΕΥ: <b>elena@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>Θα ήθελα να καταχωρήσω διαφορετική διεύθυνση<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Διεύθυνση ηλ. ταχυδρομείου</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>Θα χρησιμοποιηθεί μόνο για τους σκοπούς αυτής της αίτησης</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
                     }
                 }
             }
@@ -124,6 +123,8 @@
                 ],
                 "validationsSummary" :"alerts",
                 "validations" : [
+                    {"validation" : "required", "elementName":"phoneRadio","elementId":"phoneRadioControl", "elementType":"radio"},
+                    {"validation" : "custom", "elementName":"phoneNum","elementId":"phoneNumIn", "elementType":"text","functionName": "checkPhone"},
                     {"validation" : "required", "elementName":"emailRadio","elementId":"emailRadioControl", "elementType":"radio"},
                     {"validation" : "custom", "elementName":"emailAddress","elementId":"emailAddressIn", "elementType":"text","functionName": "checkEmail"}
                 ],
@@ -132,6 +133,8 @@
                         "label" : "Next",
                         "validationSummaryTitle" : "There is a problem",
                         "validationsLabels" : {
+                            "required.phoneRadioControl" : "Please select which phone to use.",
+                            "custom.phoneNumIn" : "Please enter a valid phone number.",
                             "required.emailRadioControl" : "Please select which email to use.",
                             "custom.emailAddressIn" : "Please enter a valid email address."
                         }
@@ -140,6 +143,8 @@
                         "label" : "Επόμενο",
                         "validationSummaryTitle" : "Υπάρχει ένα πρόβλημα",
                         "validationsLabels" : {
+                            "required.phoneRadioControl" : "Παρακαλώ επιλέξετε ποιο τηλέφωνο να χρησιμοποιήσουμε.",
+                            "custom.phoneNumIn" : "Παρακαλώ περάστε ένα σωστό τηλέφωνο.",
                             "required.emailRadioControl" : "Παρακαλώ επιλέξετε ποιο email να χρησιμοποιήσουμε.",
                             "custom.emailAddressIn" : "Παρακαλώ περάστε ένα σωστό email address."
                         }
