@@ -31,10 +31,10 @@
                 "type": "spanHTML",
                 "content" : {
                     "en" : {
-                        "label" : "<b>Full Name</b><br>Έλενα Νικολάου<br><br>"
+                        "label" : "<b>Full Name</b><br>Χριστόφορος Νικολάου<br><br>"
                     },
                     "el" : {
-                        "label" : "<b>Ονοματεπώνυμο</b><br>Έλενα Νικολάου<br><br>"
+                        "label" : "<b>Ονοματεπώνυμο</b><br>Χριστόφορος Νικολάου<br><br>"
                     }
                 }
             }
@@ -53,10 +53,10 @@
                 "type": "spanHTML",
                 "content" : {
                     "en" : {
-                        "label" : "<b>Specialty</b><br>Πληροφορική / Επιστήμη Η/Υ<br><br>"
+                        "label" : "<b>Specialty</b><br>Πληροφορική - Επιστήμη Η.Υ.<br><br>"
                     },
                     "el" : {
-                        "label" : "<b>Ειδικότητα</b><br>Πληροφορική / Επιστήμη Η/Υ<br><br>"
+                        "label" : "<b>Ειδικότητα</b><br>Πληροφορική - Επιστήμη Η.Υ.<br><br>"
                     }
                 }
             }
@@ -64,10 +64,10 @@
                 "type": "spanHTML",
                 "content" : {
                     "en" : {
-                        "label" : "<b>Position</b><br>Καθηγητής/τρια<br><br>"
+                        "label" : "<b>Position</b><br>Βοηθός Διευθυντής Μέσης Εκπαίδευσης/τρια<br><br>"
                     },
                     "el" : {
-                        "label" : "<b>Θέση</b><br>Καθηγητής/τρια<br><br>"
+                        "label" : "<b>Θέση</b><br>Βοηθός Διευθυντής Μέσης Εκπαίδευσης/τρια<br><br>"
                     }
                 }
             }
@@ -98,10 +98,10 @@
                 "classes" :["govcy-mb-4"],
                 "content" : {
                     "en" : {
-                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Use email stored by ESC: <b>elena@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>I’d like to use a different email address<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Email address</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>We’ll only use this for your promotion application</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Use email stored by ESC: <b>chris@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>I’d like to use a different email address<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Email address</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>We’ll only use this for your promotion application</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
                     },
                     "el" : {
-                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Τη διεύθυνση ηλ. ταχυδρομείου που είναι που είναι καταχωρημένο στο αρχείο της ΕΕΥ: <b>elena@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>Θα ήθελα να καταχωρήσω διαφορετική διεύθυνση<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Διεύθυνση ηλ. ταχυδρομείου</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>Θα χρησιμοποιηθεί μόνο για τους σκοπούς αυτής της αίτησης</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Τη διεύθυνση ηλ. ταχυδρομείου που είναι που είναι καταχωρημένο στο αρχείο της ΕΕΥ: <b>chris@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>Θα ήθελα να καταχωρήσω διαφορετική διεύθυνση<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Διεύθυνση ηλ. ταχυδρομείου</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>Θα χρησιμοποιηθεί μόνο για τους σκοπούς αυτής της αίτησης</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
                     }
                 }
             }

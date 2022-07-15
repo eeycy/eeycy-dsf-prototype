@@ -43,21 +43,17 @@
 					"en" : {
 						"label" : "",
 						"options": [
-							{"option_id": "position1","option_value":"Secondary Education Deputy Principal for Greek Language", "option_label":"Secondary Education Deputy Principal for Greek Language", "option_checked":false}
-							,{"option_id": "position2","option_value":"Secondary Education Deputy Principal A for Informatics", "option_label":"Secondary Education Deputy Principal A for Informatics", "option_checked":false}
-							,{"option_id": "position3","option_value":"Secondary Education  Principal", "option_label":"Secondary Education  Principal", "option_checked":false}
-							,{"option_id": "position4","option_value":"Secondary Education Inspector for French", "option_label":"Secondary Education Inspector for French", "option_checked":false}
-							,{"option_id": "position5","option_value":"First Education Officer", "option_label":"First Education Officer", "option_checked":false}
+							{"option_id": "position1","option_value":"Deputy Principal A' Secondary General Education for Informatics - Computer Science", "option_label":"Deputy Principal A' Secondary General Education for Informatics - Computer Science", "option_checked":false}
+							,{"option_id": "position2","option_value":"Inspector Secondary General Education for Informatics - Computer Science", "option_label":"Inspector Secondary General Education for Informatics - Computer Science", "option_checked":false}
+							,{"option_id": "position3","option_value":"Pedagogical Institute Teacher for Informatics", "option_label":"Pedagogical Institute Teacher for Informatics", "option_checked":false}
 						]
 					},
 					"el" : {
 						"label" : "",
 						"options": [
-							{"option_id": "position1","option_value":"Βοηθός Διευθυντής Μέσης Εκπαίδευσης στα Φιλολογικά", "option_label":"Βοηθός Διευθυντής Μέσης Εκπαίδευσης στα Φιλολογικά", "option_checked":false}
-							,{"option_id": "position2","option_value":"Βοηθός Διευθυντής Α' Μέσης Εκπαίδευσης στη Πληροφορική", "option_label":"Βοηθός Διευθυντής Α' Μέσης Εκπαίδευσης στη Πληροφορική", "option_checked":false}
-							,{"option_id": "position3","option_value":"Διευθυντής Μέσης Εκπαίδευσης", "option_label":"Διευθυντής Μέσης Εκπαίδευσης", "option_checked":false}
-							,{"option_id": "position4","option_value":"Επιθεωρητής Μέσης Εκπαίδευσης στα Γαλλικά", "option_label":"Επιθεωρητής Μέσης Εκπαίδευσης στα Γαλλικά", "option_checked":false}
-							,{"option_id": "position5","option_value":"Πρώτος Λειτουργός Εκπαίδευσης", "option_label":"Πρώτος Λειτουργός Εκπαίδευσης", "option_checked":false}
+							{"option_id": "position1","option_value":"Βοηθός Διευθυντής Α' Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.", "option_label":"Βοηθός Διευθυντής Α' Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.", "option_checked":false}
+							,{"option_id": "position2","option_value":"Επιθεωρητής Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.", "option_label":"Επιθεωρητής Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.", "option_checked":false}
+							,{"option_id": "position3","option_value":"Καθηγητής Παιδαγωγικού Ινστιτούτου για τη Πληροφορική", "option_label":"Καθηγητής Παιδαγωγικού Ινστιτούτου για τη Πληροφορική", "option_checked":false}
 						]
 					}
 				}

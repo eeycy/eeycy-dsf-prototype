@@ -3,7 +3,7 @@
 //if (sessionStorage["fullName"]) {
 //    if (sessionStorage["fullName"] != "") $("#fullNameS").text(sessionStorage["fullName"]);
 //}
-$("#fullNameS").text("Έλενα Νικολάου");
+$("#fullNameS").text("Χριστόφορος Νικολάου");
 
 //if (sessionStorage["fileNumber"]) {
 //    if (sessionStorage["fileNumber"] != "") $("#fileNumberS").text(sessionStorage["fileNumber"]);

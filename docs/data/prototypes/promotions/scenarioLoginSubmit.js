@@ -1,6 +1,6 @@
 //not the right user
-if ((!sessionStorage["id"]) || (sessionStorage["id"].toLowerCase() != "elena")){
-    window.location="#p/birthBenefit/badLogin";
+if ((!sessionStorage["id"]) || (sessionStorage["id"].toLowerCase() != "chris")){
+    window.location="#p/promotions/badLogin";
     //use this to stop all other events
     appModel.stopScripts = true;  
 //if is the right user load userNamesSignOut component
