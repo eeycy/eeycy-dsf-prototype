@@ -23,8 +23,8 @@
             ,{
                 "type": "h1",
                 "content" : {
-                    "en" : {"label" : "Υour details"},
-                    "el" : {"label" : "Tα στοιχεία σας"}
+                    "en" : {"label" : "Verify your personal details"},
+                    "el" : {"label" : "Επιβεβαιώστε τα προσωπικά σας στοιχεία"}
                 }
             }
             ,{
@@ -64,11 +64,18 @@
                 "type": "spanHTML",
                 "content" : {
                     "en" : {
-                        "label" : "<b>Position</b><br>Βοηθός Διευθυντής/τρια Μέσης Εκπαίδευσης<br><br>"
+                        "label" : "<b>Position you hold</b><br>Βοηθός Διευθυντής/τρια Μέσης Εκπαίδευσης<br><br>"
                     },
                     "el" : {
-                        "label" : "<b>Θέση</b><br>Βοηθός Διευθυντής/τρια Μέσης Εκπαίδευσης<br><br>"
+                        "label" : "<b>Θέση που κατέχετε</b><br>Βοηθός Διευθυντής/τρια Μέσης Εκπαίδευσης<br><br>"
                     }
+                }
+            }
+            ,{
+                "type": "fieldsetOpen",
+                "content" : {
+                    "en" : {"legend" : "Phone"},
+                    "el" : {"legend" : "Τηλέφωνο"}
                 }
             }
             ,{
@@ -76,10 +83,10 @@
                 "classes" :["govcy-mb-4"],
                 "content" : {
                     "en" : {
-                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='phoneRadioControl'><span id='phoneRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Use phone stored by ESC: <b>99123456</b><input class='govcy-radio-input' value='default' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>I’d like to use a different phone number<input class='govcy-radio-input' value='custom' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='phoneN'><div id='phoneNumIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Telephone number</label><span id='phoneNumIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>We’ll only use this for your promotion application</span><input type='text' name='phoneNum' class='govcy-text-input'/></div></div></div></fieldset>"
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='phoneRadioControl'><span id='phoneRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Use phone stored by ESC: <b>99123456</b><input class='govcy-radio-input' value='default' name='phoneRadio' type='radio' checked='checked' data-bs-toggle='collapse' data-bs-target='#phoneN.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>I’d like to use a different phone number<input class='govcy-radio-input' value='custom' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='phoneN'><div id='phoneNumIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Telephone number</label><span id='phoneNumIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>We’ll only use this for your promotion application</span><input type='text' name='phoneNum' class='govcy-text-input'/></div></div></div></fieldset>"
                     },
                     "el" : {
-                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='phoneRadioControl'><span id='phoneRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Το τηλέφωνο που είναι καταχωρημένο στο αρχείο της ΕΕΥ: <b>99123456</b><input class='govcy-radio-input' value='default' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>Θα ήθελα να καταχωρήσω διαφορετικό τηλέφωνο<input class='govcy-radio-input' value='custom' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='phoneN'><div id='phoneNumIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Τηλέφωνο</label><span id='phoneNumIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>Θα χρησιμοποιηθεί μόνο για τους σκοπούς αυτής της αίτησης</span><input type='text' name='phoneNum' class='govcy-text-input'/></div></div></div></fieldset>"
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='phoneRadioControl'><span id='phoneRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Το τηλέφωνο που είναι καταχωρημένο στο αρχείο της ΕΕΥ: <b>99123456</b><input class='govcy-radio-input' value='default' name='phoneRadio' type='radio' checked='checked' data-bs-toggle='collapse' data-bs-target='#phoneN.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>Θα ήθελα να καταχωρήσω διαφορετικό τηλέφωνο<input class='govcy-radio-input' value='custom' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='phoneN'><div id='phoneNumIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Τηλέφωνο</label><span id='phoneNumIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>Θα χρησιμοποιηθεί μόνο για τους σκοπούς αυτής της αίτησης</span><input type='text' name='phoneNum' class='govcy-text-input'/></div></div></div></fieldset>"
                     }
                 }
             }
@@ -98,10 +105,10 @@
                 "classes" :["govcy-mb-4"],
                 "content" : {
                     "en" : {
-                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Use email stored by ESC: <b>chris@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>I’d like to use a different email address<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Email address</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>We’ll only use this for your promotion application</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Use email stored by ESC: <b>chris@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' checked='checked' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>I’d like to use a different email address<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Email address</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>We’ll only use this for your promotion application</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
                     },
                     "el" : {
-                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Τη διεύθυνση ηλ. ταχυδρομείου που είναι που είναι καταχωρημένο στο αρχείο της ΕΕΥ: <b>chris@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>Θα ήθελα να καταχωρήσω διαφορετική διεύθυνση<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Διεύθυνση ηλ. ταχυδρομείου</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>Θα χρησιμοποιηθεί μόνο για τους σκοπούς αυτής της αίτησης</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='emailRadioControl'><span id='emailRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Τη διεύθυνση ηλ. ταχυδρομείου που είναι που είναι καταχωρημένο στο αρχείο της ΕΕΥ: <b>chris@example.com</b><input class='govcy-radio-input' value='default' name='emailRadio' type='radio' checked='checked' data-bs-toggle='collapse' data-bs-target='#email.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>Θα ήθελα να καταχωρήσω διαφορετική διεύθυνση<input class='govcy-radio-input' value='custom' name='emailRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#email:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='email'><div id='emailAddressIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Διεύθυνση ηλ. ταχυδρομείου</label><span id='emailAddressIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>Θα χρησιμοποιηθεί μόνο για τους σκοπούς αυτής της αίτησης</span><input type='text' name='emailAddress' class='govcy-text-input'/></div></div></div></fieldset>"
                     }
                 }
             }

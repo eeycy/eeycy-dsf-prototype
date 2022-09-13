@@ -10,10 +10,23 @@ $("#fullNameS").text("Χριστόφορος Νικολάου");
 //}
 $("#fileNumberS").text("123456");
 
+if (sessionStorage["phoneNum"]) {
+    if (sessionStorage["phoneNum"] != "") $("#phoneNumS").text(sessionStorage["phoneNum"]);
+}
+else 
+	$("#phoneNumS").text("99123456");
+
+if (sessionStorage["emailAddress"]) {
+    if (sessionStorage["emailAddress"] != "") $("#emailAddressS").text(sessionStorage["emailAddress"]);
+}
+else 
+	$("#emailAddressS").text("chris@example.com");
 
 if (sessionStorage["positionRadio"]) {
     if (sessionStorage["positionRadio"] != "") $("#positionSelected").text(sessionStorage["positionRadio"]);
 }
+else
+	$("#positionSelected").text(positionSelectedString);
 
 
 if (sessionStorage["titleOfStudy1"]) {

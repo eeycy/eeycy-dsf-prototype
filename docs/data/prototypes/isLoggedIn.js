@@ -23,4 +23,48 @@ if ((!sessionStorage["id"]) || (sessionStorage["id"].toLowerCase() != "chris")){
 
     //render on page
     $("#before-main").html(userDataContent);
+
+}
+
+var currentRouteId;
+var currentRouteNo;
+var positionSelectedString;
+
+function forwardPageOnRoute(steps) {
+
+	var nextRoutId=parseInt(currentRouteNo) + steps;
+    var newURL= "#r/" + currentRouteId + '/' + nextRoutId;
+    window.location=newURL;
+}
+
+function nextPageOnRoute() {
+
+	forwardPageOnRoute(1);
+}
+
+function selectPositionString(id) {
+	if (id == 1)
+		positionSelectedString = "Βοηθός Διευθυντής Α' Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.";
+	else if (id == 2)
+		positionSelectedString = "Επιθεωρητής Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.";
+	else if (id == 3)
+		positionSelectedString = "Καθηγητής Παιδαγωγικού Ινστιτούτου για τη Πληροφορική";
+	else if (id == 4)
+		positionSelectedString = "Deputy Principal A' Secondary General Education for Informatics - Computer Science";
+	else if (id == 5)
+		positionSelectedString = "Inspector Secondary General Education for Informatics - Computer Science";
+	else
+		positionSelectedString = "Pedagogical Institute Teacher for Informatics";
+}
+
+function selectPosition(id) {
+
+	selectPositionString(id);
+	nextPageOnRoute();
+}
+
+function viewPosition(id) {
+
+	selectPositionString(id);
+	forwardPageOnRoute(4);
 }

@@ -1,0 +1,68 @@
+{
+    "id":"promotions/positionSelectionWithHistory",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "preScript" : "isLoggedIn.js",
+    "postScript" : "promotions/positionSelectionWithHistory.js",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "backLink",
+                "DOMId" : "before-main",
+                "content" : {
+                    "en" : {"label" : "Back"},
+                    "el" : {"label" : "Πίσω"}
+                }
+            }
+            ,{
+                "type": "h1",
+                "content" : {
+                    "en" : {"label" : "Position for which you are applying:"},
+                    "el" : {"label" : "Θέση για την οποία υποβάλλετε την αίτηση:"}
+                }
+            }
+            ,{
+                "type": "table",
+                "name": "positionTable",
+				"id": "positionTable",
+                "content" : {
+                    "en" : {"label" : "",
+                            "head": ["","",""],
+                            "data" : [
+                                ["<b>1</b>","<b>Position: </b><span id='position1'>Deputy Principal A' Secondary General Education for Informatics - Computer Science</span><br><b>Publication: </b><span id='publication1'>19</span><br><b>Submition Deadline: </b><span id='dates1'>01/09/2022 - 25/09/2022 at 13:00</span>", "<a id='view1' title='View' href='#' onclick='viewPosition(4);return false;'>View</a>", "<a id='next1' title='Edit' href='#' onclick='selectPosition(4);return false;'>Edit</a>"],
+                                ["<b>2</b>","<b>Position: </b><span id='position2'>Inspector Secondary General Education for Informatics - Computer Science</span><br><b>Publication: </b><span id='publication2'>19</span><br><b>Submition Deadline: </b><span id='dates2'>01/09/2022 - 25/09/2022 at 13:00</span>", "", "<a id='next2' title='New' href='#' onclick='selectPosition(5);return false;'>New</a>"],
+                                ["<b>3</b>","<b>Position: </b><span id='position3'>Pedagogical Institute Teacher for Informatics</span><br><b>Publication: </b><span id='publication3'>20</span><br><b>Submition Deadline: </b><span id='dates3'>10/09/2022 - 05/10/2022 at 13:00</span>", "", "<a id='next3' title='New' href='#' onclick='selectPosition(6);return false;'>New</a>"]
+                            ]
+                        },
+                    "el" : {"label" : "",
+                            "head": ["","",""],
+                            "data" : [
+                                ["<b>1</b>","<b>Θέση: </b><span id='position1'>Βοηθός Διευθυντής Α' Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.</span><br><b>Προκήρυξη: </b><span id='publication1'>19</span><br><b>Προθεσμία Υποβολής Αίτησης: </b><span id='dates1'>01/09/2022 - 25/09/2022, ώρα 13:00</span>", "<a id='view1' title='Προβολή' href='#' onclick='viewPosition(1);return false;'>Προβολή</a>", "<a id='next1' title='Επεξεργασία' href='#' onclick='selectPosition(1);return false;'>Επεξεργασία</a>"],
+                                ["<b>2</b>","<b>Θέση: </b><span id='position2'>Επιθεωρητής Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.</span><br><b>Προκήρυξη: </b><span id='publication2'>19</span><br><b>Προθεσμία Υποβολής Αίτησης: </b><span id='dates2'>01/09/2022 - 25/09/2022, ώρα 13:00</span>", "", "<a id='next2' title='Αίτηση' href='#' onclick='selectPosition(2);return false;'>Νέα Αίτηση</a>"],
+                                ["<b>3</b>","<b>Θέση: </b><span id='position3'>Καθηγητής Παιδαγωγικού Ινστιτούτου για τη Πληροφορική</span><br><b>Προκήρυξη: </b><span id='publication3'>20</span><br><b>Προθεσμία Υποβολής Αίτησης: </b><span id='dates3'>10/09/2022 - 05/10/2022, ώρα 13:00</span>", "", "<a id='next3' title='Αίτηση' href='#' onclick='selectPosition(3);return false;'>Νέα Αίτηση</a>"]
+                        ]
+                    }
+                }
+            }
+            ,{
+                "type": "button",
+                "subtype": "secondary",
+                "id":"historyButton",
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "getData","data":""},
+							{"action" : "link", "data":"#p/promotions/viewHistory"}
+                        ]
+                    }
+                ],
+                "content" : {
+                    "en" : {"label" : "View Application History"},
+                    "el" : {"label" : "Προβολή Ιστορικού Αιτήσεων"}
+                }
+            }
+        ]
+    }   
+}

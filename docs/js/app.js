@@ -20,7 +20,6 @@
 
 });
 
-
 /**
 * Controller class
 */
@@ -44,6 +43,8 @@ var appController = {
           });
           //------------#r/:routeId/:routeNo---------------------------
           this.get('#r/:routeId/:routeNo', function () {
+			currentRouteId = this.params['routeId'];
+			currentRouteNo = this.params['routeNo'];
             appView.renderPage(appModel.siteOptions.routes[this.params['routeId']][this.params['routeNo']]
                 ,this.params['routeId'], this.params['routeNo']);
           });
@@ -498,3 +499,6 @@ var appValidator = {
       $("#"+validationsAlert).html("");
     }
 };
+
+
+
