@@ -19,6 +19,8 @@
         ,"promotions/notApplicable":{"id":"promotions/notApplicable"}
         ,"promotions/positionSelection":{"id":"promotions/positionSelection"}
         ,"promotions/positionSelectionWithHistory":{"id":"promotions/positionSelectionWithHistory"}
+        ,"promotions/positionApplicationHistory":{"id":"promotions/positionApplicationHistory"}
+        ,"promotions/scenarioCheckHistory":{"id":"promotions/scenarioCheckHistory"}
         ,"promotions/qualificationsCheck":{"id":"promotions/qualificationsCheck"}
         ,"promotions/qualifications":{"id":"promotions/qualifications"}
         ,"promotions/qualifications2":{"id":"promotions/qualifications2"}

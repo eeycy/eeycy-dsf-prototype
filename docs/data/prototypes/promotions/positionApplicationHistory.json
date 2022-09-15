@@ -1,0 +1,49 @@
+{
+    "id":"promotions/positionApplicationHistory",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "preScript" : "isLoggedIn.js",
+    "postScript" : "",
+    "DSFcomponents" : 
+        {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "backLink",
+                "DOMId" : "before-main",
+                "content" : {
+                    "en" : {"label" : "Back"},
+                    "el" : {"label" : "Πίσω"}
+                }
+            }
+            ,{
+                "type": "h1",
+                "content" : {
+                    "en" : {"label" : "Completed Application History"},
+                    "el" : {"label" : "Ιστορικό ολκληρώμενων αιτήσεων"}
+                }
+            }
+            ,{
+                "type": "table",
+                "name": "positionTable",
+				"id": "positionTable",
+                "content" : {
+                    "en" : {"label" : "",
+                            "head": ["","",""],
+                            "data" : [
+                                ["<b>1</b>","<b>Position: </b><span id='hposition1'>Deputy Principal Secondary General Education for Informatics - Computer Science</span><br><b>Publication: </b><span id='hpublication1'>9</span><br><b>Submition Date: </b><span id='hdates1'>10/10/2018 11:23</span>", "<a id='hnext1' title='View' href='#' onclick='viewPosition(13);return false;'>View</a>"],
+                                ["<b>2</b>","<b>Position: </b><span id='hposition2'>Pedagogical Institute Teacher for Informatics</span><br><b>Publication: </b><span id='hpublication2'>11</span><br><b>Submition Date: </b><span id='hdates2'>18/03/2015 18:44</span>", "<a id='hnext2' title='View' href='#' onclick='viewPosition(14);return false;'>View</a>"]
+                            ]
+                        },
+                    "el" : {"label" : "",
+                            "head": ["","",""],
+                            "data" : [
+                                ["<b>1</b>","<b>Θέση: </b><span id='hposition1'>Βοηθός Διευθυντής Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.</span><br><b>Προκήρυξη: </b><span id='hpublication1'>9</span><br><b>Ημερομηνία Υποβολής Αίτησης: </b><span id='hdates1'>10/10/2018 11:23</span>", "<a id='hnext1' title='Προβολή' href='#' onclick='viewPosition(11);return false;'>Προβολή</a>"],
+                                ["<b>2</b>","<b>Θέση: </b><span id='hposition2'>Καθηγητής Παιδαγωγικού Ινστιτούτου για τη Πληροφορική</span><br><b>Προκήρυξη: </b><span id='hpublication2'>11</span><br><b>Ημερομηνία Υποβολής Αίτησης: </b><span id='hdates2'>18/03/2015 18:44</span>", "<a id='hnext2' title='Προβολή' href='#' onclick='viewPosition(12);return false;'>Προβολή</a>"]
+                        ]
+                    }
+                }
+            }
+        ]
+    }   
+}
