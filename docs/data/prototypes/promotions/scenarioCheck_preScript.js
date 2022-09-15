@@ -81,5 +81,9 @@ else
 
 
 if (sessionStorage["efFile"]) {
-    if (sessionStorage["efFile"] != "") $("#efFileU").text(sessionStorage["efFile"]);
+    if (sessionStorage["efFile"] != "")
+		$("#efFileU").text("Προβολή");
+	else $("#efFileU").text("");
 }
+else
+	$("#efFileU").text("");

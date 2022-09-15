@@ -102,6 +102,7 @@ var appController = {
                     });
                     break;
                 case "link": window.location=actions.data.actions[i].data; break;
+                case "linkNewTab": window.open(actions.data.actions[i].data, '_blank'); break;
                 case "goBack": history.back(); break;
                 case "previousOnRoute": 
                     var nextRoutId=parseInt(actions.data.routeNo) - 1;

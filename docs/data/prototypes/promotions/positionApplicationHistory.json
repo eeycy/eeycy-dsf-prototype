@@ -3,7 +3,6 @@
     "menus" : [],
     "layout" : "Two-thirds",
     "preScript" : "isLoggedIn.js",
-    "postScript" : "",
     "DSFcomponents" : 
         {
         "DOMId": "components",

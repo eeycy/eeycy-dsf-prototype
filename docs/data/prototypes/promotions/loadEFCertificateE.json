@@ -34,6 +34,23 @@
                 }
             }
             ,{
+                "type": "button",
+                "subtype": "secondary",
+                "id":"historyButton",
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "getData","data":""},
+							{"action" : "linkNewTab", "data":"data/prototypes/promotions/ef-a.pdf"}
+                        ]
+                    }
+                ],
+                "content" : {
+                    "en" : {"label" : "View Certificate"},
+                    "el" : {"label" : "Προβολή πιστοποητικού"}
+                }
+            }
+            ,{
                 "type": "paragraph",
                 "content" : {
                     "en" : {"label" : "Continue to next step."},

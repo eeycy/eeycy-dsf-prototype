@@ -29,8 +29,15 @@
             ,{
                 "type": "paragraph",
                 "content" : {
-                    "en" : {"label" : "You don't need to upload certificate of militaty recruitment, type \"A\"."},
-                    "el" : {"label" : "Δεν χρειάζεται να υποβάλετε το πιστοποιητικό στρατολογικής κατάστασης \"Α\"."}
+                    "en" : {"label" : "You don't need or can upload certificate of militaty recruitment, type \"A\"."},
+                    "el" : {"label" : "Δεν χρειάζεται ή δεν υπάρχει δυνατότητα να υποβάλετε το πιστοποιητικό στρατολογικής κατάστασης \"Α\"."}
+                }
+            }
+            ,{
+                "type": "paragraph",
+                "content" : {
+                    "en" : {"label" : "Uploading certificate of militaty recruitment, type \"A\". is not required because..."},
+                    "el" : {"label" : "Η υποβολή του πιστοποιητικό στρατολογικής κατάστασης \"Α\" δεν απαιτείτα επειδή..."}
                 }
             }
             ,{
