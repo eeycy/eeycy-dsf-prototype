@@ -40,14 +40,14 @@
                 "href" : "#r/promotions2/0",
                 "content" : {
                     "en" : {"label" : "Scenario 2 (submittion of NG certificate not required)"},
-                    "el" : {"label" : "Σενάριο 2 (δεν απαιτείται η υποβολή πιστοποιητικού ΕΦ)"}
+                    "el" : {"label" : "Σενάριο 2 (δεν απαιτείται ή δεν υπάρχει δυνατότητα υποβολής πιστοποιητικού ΕΦ)"}
                 }
             }
             ,{
                 "type": "paragraph",
                 "content" : {
                     "en" : {"label" : "Scenario in which, the teacher need not to upload a NG service certificate."},
-                    "el" : {"label" : "Σενάριο στο οποίο ο εκπαιδευτικός δεν χρειάζεται να υποβάλει πιστοποιητικό υπηρεσίας στην ΕΦ"}
+                    "el" : {"label" : "Σενάριο στο οποίο ο εκπαιδευτικός δεν χρειάζεται ή δεν μπορεί να υποβάλει πιστοποιητικό υπηρεσίας στην ΕΦ"}
                 }
             }
            ,{
