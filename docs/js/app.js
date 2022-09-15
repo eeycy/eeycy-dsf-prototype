@@ -128,6 +128,8 @@ var appController = {
                         //save in session store
                         sessionStorage[inputKey] = inputValue;
                     }
+					if (actions.data.actions[i].data == "skipFile")
+						sessionStorage["efFile"] = "";
                     break;
                 case "alertData": 
                     var formData = new FormData(document.querySelector("#components"));

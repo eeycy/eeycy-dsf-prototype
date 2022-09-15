@@ -37,7 +37,7 @@
                 "type": "paragraph",
                 "content" : {
                     "en" : {"label" : "Uploading certificate of militaty recruitment, type \"A\". is not required because..."},
-                    "el" : {"label" : "Η υποβολή του πιστοποιητικό στρατολογικής κατάστασης \"Α\" δεν απαιτείτα επειδή..."}
+                    "el" : {"label" : "Η υποβολή του πιστοποιητικό στρατολογικής κατάστασης \"Α\" δεν απαιτείται επειδή..."}
                 }
             }
             ,{

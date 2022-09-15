@@ -54,6 +54,31 @@
 			,{
                 "type": "fieldsetClose"
             }
+			,{
+                "type": "button",
+                "subtype": "secondary",
+                "id":"skipThis",
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "getData","data":"skipFile"},
+                            {"action" : "nextOnRoute","data":""}
+                        ]
+                    }
+                ],
+                "content" : {
+                    "en" : {
+                        "label" : "Skip"
+                    },
+                    "el" : {
+                        "label" : "Παράλειψη"
+                    }
+                }
+            }
+            ,{
+                "type": "divEmpty",
+                "id" : "emptyBB"
+            }
             ,{
                 "type": "button",
                 "subtype": "primary",
