@@ -110,9 +110,13 @@ var appController = {
                     window.location=newURL;
                     break;
                 case "nextOnRoute": 
-                    var nextRoutId=parseInt(actions.data.routeNo) + 1;
-                    var newURL= "#r/"+actions.data.routeId+'/'+nextRoutId;
-                    window.location=newURL;
+					if (actions.data.routeId != "") {
+						var nextRoutId=parseInt(actions.data.routeNo) + 1;
+						var newURL= "#r/"+actions.data.routeId+'/'+nextRoutId;
+						window.location=newURL;
+					}
+					else
+						history.back();
                     break;
                 case "getData": 
                     var formData = new FormData(document.querySelector("#components"));
