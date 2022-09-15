@@ -77,14 +77,14 @@
                 ],
                 "content" : {
                     "en" : {
-                        "label" : "Submit Application",
+                        "label" : "Next",
                         "validationSummaryTitle" : "There is a problem",
                         "validationsLabels" : {
                             "custom.legalCheck" : "Please accept declaration."
                         }
                     },
                     "el" : {
-                        "label" : "Υποβολή Αϊτησης",
+                        "label" : "Επόμενο",
                         "validationSummaryTitle" : "Υπάρχει ένα πρόβλημα",
                         "validationsLabels" : {
                             "custom.legalCheck" : "Παρακαλώ επιβεβαιώστε τη συγκατάθεση."
