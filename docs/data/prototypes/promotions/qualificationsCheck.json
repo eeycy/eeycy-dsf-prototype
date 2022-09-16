@@ -19,8 +19,8 @@
             ,{
                 "type": "h1",
                 "content" : {
-                    "en" : {"label" : "Academic Qualifications"},
-                    "el" : {"label" : "Ακαδημαϊκά Προσόντα"}
+                    "en" : {"label" : "Academic Qualifications Confirmation"},
+                    "el" : {"label" : "Επιβεβαίωση Ακαδημαϊκών Προσόντών"}
                 }
             }
             ,{

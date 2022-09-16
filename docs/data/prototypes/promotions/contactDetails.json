@@ -23,8 +23,8 @@
             ,{
                 "type": "h1",
                 "content" : {
-                    "en" : {"label" : "Verify your personal details"},
-                    "el" : {"label" : "Επιβεβαιώστε τα προσωπικά σας στοιχεία"}
+                    "en" : {"label" : "Personal details confirmation"},
+                    "el" : {"label" : "Επιβεβαίωση Προσωπικών Στοιχείων"}
                 }
             }
             ,{

@@ -27,7 +27,7 @@
                 }
             }
             ,{
-                "type": "paragraph",
+                "type": "h5",
                 "content" : {
                     "en" : {"label" : "You don't need or can upload certificate of militaty recruitment, type \"A\"."},
                     "el" : {"label" : "Δεν χρειάζεται ή δεν υπάρχει δυνατότητα να υποβάλετε το πιστοποιητικό στρατολογικής κατάστασης \"Α\"."}

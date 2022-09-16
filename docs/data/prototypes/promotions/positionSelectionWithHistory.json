@@ -19,8 +19,8 @@
             ,{
                 "type": "h1",
                 "content" : {
-                    "en" : {"label" : "Position for which you are applying:"},
-                    "el" : {"label" : "Θέση για την οποία υποβάλλετε την αίτηση:"}
+                    "en" : {"label" : "Position for which you are applying"},
+                    "el" : {"label" : "Θέση για την οποία υποβάλλετε την αίτηση"}
                 }
             }
             ,{

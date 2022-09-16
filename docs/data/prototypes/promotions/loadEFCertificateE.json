@@ -27,7 +27,7 @@
                 }
             }
             ,{
-                "type": "paragraph",
+                "type": "h5",
                 "content" : {
                     "en" : {"label" : "We have found in our records your certificate of militaty recruitment, type \"A\"."},
                     "el" : {"label" : "Έχουμε εντοπίσει στο αρχείο μας το πιστοποιητικό στρατολογικής κατάστασης \"Α\"."}
