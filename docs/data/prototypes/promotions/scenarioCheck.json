@@ -44,7 +44,7 @@
 								["<b>1</b>","<b>Title of Study: </b><span id='titleOfStudy1'>MSc in Networks</span><br><b>Institution: </b><span id='institution1'>University of Cyprus</span><br><b>Country of Study: </b><span id='countryOfStudy1'>Cyprus</span><br><b>Year of Study: </b><span id='yearOfStudy1'>1999</span>", ""],
 								["<b>2</b>","<b>Title of Study: </b><span id='titleOfStudy2'>PhD in Educational Research</span><br><b>Institution: </b><span id='institution2'>University of Manchester</span><br><b>Country of Study: </b><span id='countryOfStudy2'>UK</span><br><b>Year of Study: </b><span id='yearOfStudy2'>1999</span>", ""],
 								["<span id='rowid1'><b>3</b></span>","<span id='titleOfStudyAddT'><b>Title of Study: </b></span><span id='titleOfStudyAdd'></span><br><b><span id='institutionAddT'>Institution: </b></span><span id='institutionAdd'></span><br><span id='countryOfStudyAddT'><b>Country of Study: </b></span><span id='countryOfStudyAdd'></span><br><span id='yearOfStudyAddT'><b>Year of Study: </b></span><span id='yearOfStudyAdd'></span>", ""],
-								["<b>National Guard Service - Uploaded File</b>", "<a id='efFileU' href='http://127.0.0.1:3000/docs/data/prototypes/promotions/ef-a.pdf' target='_blank'></a>", "<a id='changeEF' href='#p/promotions/loadEFCertificate'>Change</a>"]
+								["<b>National Guard Service - Uploaded File</b>", "<a id='efFileU' href='data/prototypes/promotions/ef-a.pdf' target='_blank'></a>", "<a id='changeEF' href='#p/promotions/loadEFCertificate'>Change</a>"]
                             ]
                         },
                     "el" : {"label" : "",
@@ -57,7 +57,7 @@
                                 ["<b>1</b>","<b>Τίτλος Σπουδών: </b><span id='titleOfStudy1'>MSc in Networks</span><br><b>Ίδρυμα: </b><span id='institution1'>University of Cyprus</span><br><b>Χώρα: </b><span id='countryOfStudy1'>Cyprus</span><br><b>Έτος απόκτησης: </b><span id='yearOfStudy1'>1999</span>", ""],
                                 ["<b>2</b>","<b>Τίτλος Σπουδών: </b><span id='titleOfStudy2'>PhD in Educational Research</span><br><b>Ίδρυμα: </b><span id='institution2'>University of Manchester</span><br><b>Χώρα: </b><span id='countryOfStudy2'>UK</span><br><b>Έτος απόκτησης: </b><span id='yearOfStudy2'>1999</span>", ""],
                                 ["<span id='rowid1'><b>3</b></span>","<span id='titleOfStudyAddT'><b>Τίτλος Σπουδών: </b></span><span id='titleOfStudyAdd'></span><br><b><span id='institutionAddT'>Ίδρυμα: </b></span><span id='institutionAdd'></span><br><span id='countryOfStudyAddT'><b>Χώρα: </b></span><span id='countryOfStudyAdd'></span><br><span id='yearOfStudyAddT'><b>Έτος απόκτησης: </b></span><span id='yearOfStudyAdd'></span>", ""],
- 								["<b>Υπηρεσία στην Εθνική Φρουρά - Ανεβασμένο Αρχείο</b>", "<a id='efFileU' href='http://127.0.0.1:3000/docs/data/prototypes/promotions/ef-a.pdf' target='_blank'></a>", "<a id='changeEF' href='#p/promotions/loadEFCertificate'>Επεξεργασία</a>"]
+ 								["<b>Υπηρεσία στην Εθνική Φρουρά - Ανεβασμένο Αρχείο</b>", "<a id='efFileU' href='data/prototypes/promotions/ef-a.pdf' target='_blank'></a>", "<a id='changeEF' href='#p/promotions/loadEFCertificate'>Επεξεργασία</a>"]
                        ]
                     }
                 }
