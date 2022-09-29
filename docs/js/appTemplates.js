@@ -1,6 +1,6 @@
 DSFTemplates = 
 {
-    "defaultLang" : "en",
+    "defaultLang" : "el",
     "markdownFile" : "<div{{#id}} id='{{id}}'{{/id}}></h1>",
     /*"layouts": {
         "Max-width" : "<section class='row'><div id='before-main'></div></section><div style='color:red'>This is just for demonstration purposes. It is not a real service.</div><article class='row' id='main'><form id='components' class='govcy-form'></form></article>",
@@ -97,14 +97,33 @@ DSFTemplates =
 				+ "</div>"
 			+ "</div>"
 		+ "</div>",
+        "dateYear": 
+			"<div {{#id}}id='{{id}}'{{/id}} class='govcy-form-control{{#classes}} {{.}}{{/classes}}'>"
+            + "<label{{#id}} for='{{id}}'{{/id}} class='govcy-label' for='input'>{{{langConent.label}}}</label>"
+            + "<span {{#id}}id='{{id}}_error'{{/id}} class='govcy-input-error-msg'></span>"
+            + "{{#langConent.hint}}<span class='govcy-hint'>{{langConent.hint}}</span>{{/langConent.hint}}"
+            + "<input type='text' class='govcy-text-input govcy-text-input-char_6 govcy-p-3' placeholder='' maxlength='4' name='{{name}}'"
+			+ "</div>",
         "text": 
             "<div {{#id}}id='{{id}}'{{/id}} class='govcy-form-control{{#classes}} {{.}}{{/classes}}'>"
-            + "<label{{#id}} for='{{id}}'{{/id}} class='govcy-label' for='input'>{{{langConent.label}}}</label>"
+            + "<label{{#id}} for='{{id}}'{{/id}} class='govcy-label govcy-mb-1' for='input'>{{{langConent.label}}}</label>"
             + "<span {{#id}}id='{{id}}_error'{{/id}} class='govcy-input-error-msg'></span>"
             + "{{#langConent.hint}}<span class='govcy-hint'>{{langConent.hint}}</span>{{/langConent.hint}}"
             + "<input type='text' class='govcy-text-input{{#charSubType}} govcy-text-input-char_{{charSubType}}{{/charSubType}}' name='{{name}}'"
             +"{{#langConent.placeholder}}placeholder='{{langConent.placeholder}}'{{/langConent.placeholder}}"
             +"{{#maxlength}} maxlength={{maxlength}}{{/maxlength}}>"
+            + "</div>",
+        "select": 
+            "<div {{#id}}id='{{id}}'{{/id}} class='govcy-form-control{{#classes}} {{.}}{{/classes}}'>"
+            + "<label{{#id}} for='{{id}}'{{/id}} class='govcy-label' for='input'>{{{langConent.label}}}</label>"
+            + "<span {{#id}}id='{{id}}_error'{{/id}} class='govcy-input-error-msg govcy-mb-3'></span>"
+            + "{{#langConent.hint}}<span class='govcy-hint'>{{langConent.hint}}</span>{{/langConent.hint}}"
+            + "<select class='govcy-select{{#charSubType}} govcy-text-input-char_{{charSubType}}{{/charSubType}} govcy-p-2' name='{{name}}' required>"
+                + "<option value='' selected>None</option>"
+            + "{{#langConent.options}}"
+                + "<option value='{{option_value}}'>{{option_label}}</option>"
+            + "{{/langConent.options}}"
+            + "</select>" 
             + "</div>",
         "password": 
             "<div {{#id}}id='{{id}}'{{/id}} class='govcy-form-control{{#classes}} {{.}}{{/classes}}'>"

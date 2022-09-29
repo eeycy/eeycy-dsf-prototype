@@ -1,0 +1,91 @@
+{
+    "id":"promotions/phoneDetails",
+    "menus" : [],
+    "layout" : "Two-thirds",
+    "preScript" : "isLoggedIn.js",
+    "postScript" : "promotions/phoneDetails.js",
+    "DSFcomponents" : 
+    {
+        "DOMId": "components",
+        "components" : [
+            {
+                "type": "backLink",
+                "DOMId" : "before-main",
+                "content" : {
+                    "en" : {"label" : "Back"},
+                    "el" : {"label" : "Πίσω"}
+                }
+            }
+            ,{
+                "type": "divEmpty",
+                "id" : "alerts"
+            }
+            ,{
+                "type": "h1",
+                "content" : {
+                    "en" : {"label" : "Confirm your phone"},
+                    "el" : {"label" : "Επιβεβαίωστε το τηλέφωνο σας"}
+                }
+            }
+            ,{
+                "type": "fieldsetOpen",
+                "content" : {
+                    "en" : {"legend" : "Phone"},
+                    "el" : {"legend" : "Τηλέφωνο"}
+                }
+            }
+            ,{
+                "type": "spanHTML",
+                "classes" :["govcy-mb-4"],
+                "content" : {
+                    "en" : {
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='phoneRadioControl'><span id='phoneRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Use phone stored by ESC: <b>99123456</b><input class='govcy-radio-input' value='default' name='phoneRadio' type='radio' checked='checked' data-bs-toggle='collapse' data-bs-target='#phoneN.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>I’d like to use a different phone number<input class='govcy-radio-input' value='custom' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='phoneN'><div id='phoneNumIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Telephone number</label><span id='phoneNumIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>We’ll only use this for your promotion application</span><input type='text' class='govcy-text-input govcy-text-input-char_10' name='phoneNum'/></div></div></div></fieldset>"
+                    },
+                    "el" : {
+                        "label" : "<fieldset class='govcy-fieldset'><div class='govcy-form-control' id='phoneRadioControl'><span id='phoneRadioControl_error' class='govcy-input-error-msg'></span><label class='govcy-radio'>Το τηλέφωνο που είναι καταχωρημένο στο αρχείο της ΕΕΥ: <b>99123456</b><input class='govcy-radio-input' value='default' name='phoneRadio' type='radio' checked='checked' data-bs-toggle='collapse' data-bs-target='#phoneN.show' /><span class='govcy-radio-checked'></span></label><label class='govcy-radio'>Θα ήθελα να καταχωρήσω διαφορετικό τηλέφωνο<input class='govcy-radio-input' value='custom' name='phoneRadio' type='radio' data-bs-toggle='collapse' data-bs-target='#phoneN:not(.show)'/><span class='govcy-radio-checked'></span></label><div class='collapse govcy-pl-3 govcy-ml-1' id='phoneN'><div id='phoneNumIn' class='govcy-form-control govcy-form-control-hint'><label class='govcy-label' for=''>Τηλέφωνο</label><span id='phoneNumIn_error' class='govcy-input-error-msg'></span><span class='govcy-hint'>Θα χρησιμοποιηθεί μόνο για τους σκοπούς αυτής της αίτησης</span><input type='text' class='govcy-text-input govcy-text-input-char_10' name='phoneNum'/></div></div></div></fieldset>"
+                    }
+                }
+            }
+            ,{
+                "type": "fieldsetClose"
+            }
+            ,{
+                "type": "button",
+                "subtype": "primary",
+                "id":"nextRoutebtn",
+                "events" : [
+                    {
+                        "on":"click","actions" : [
+                            {"action" : "validate","data":""},
+                            {"action" : "getData","data":""},
+                            {"action" : "nextOnRoute","data":""}
+                        ]
+                    }
+                ],
+                "validationsSummary" :"alerts",
+                "validations" : [
+                    {"validation" : "required", "elementName":"phoneRadio","elementId":"phoneRadioControl", "elementType":"radio"},
+                    {"validation" : "custom", "elementName":"phoneNum","elementId":"phoneNumIn", "elementType":"text","functionName": "checkPhone"}
+                ],
+                "content" : {
+                    "en" : {
+                        "label" : "Next",
+                        "validationSummaryTitle" : "There is a problem",
+                        "validationsLabels" : {
+                            "required.phoneRadioControl" : "Please select which phone to use.",
+                            "custom.phoneNumIn" : "Please enter a valid phone number."
+                        }
+                    },
+                    "el" : {
+                        "label" : "Επόμενο",
+                        "validationSummaryTitle" : "Υπάρχει ένα πρόβλημα",
+                        "validationsLabels" : {
+                            "required.phoneRadioControl" : "Παρακαλώ επιλέξετε ποιο τηλέφωνο να χρησιμοποιήσουμε.",
+                            "custom.phoneNumIn" : "Παρακαλώ περάστε ένα σωστό τηλέφωνο."
+                        }
+                    }
+                }
+            }
+        ]
+    }   
+}

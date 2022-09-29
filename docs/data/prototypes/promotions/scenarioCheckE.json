@@ -1,5 +1,5 @@
 {
-    "id":"promotions/scenarioCheck",
+    "id":"promotions/scenarioCheckE",
     "menus" : [],
     "layout" : "Two-thirds",
     "preScript" : "isLoggedIn.js",
@@ -21,7 +21,7 @@
                 "content" : {
                     "en" : {"label" : "Check your application details"},
                     "el" : {"label" : "Ελέγξτε αν τα στοιχεία της αίτησης σας είναι σωστά"}
-                }
+                 }
             }
             ,{
                 "type": "table",
@@ -58,10 +58,10 @@
 							],
                             [	"<b>Certificate of militaty recruitment, type \"A\"</b>",
 								"",
-								"<a id='efFileUEn' href='data/prototypes/promotions/ef-a.pdf' target='_blank'></a>",
-								"<a id='changeEF' href='#p/promotions/loadEFCertificate'>Change</a>"
+								"We have found in our records your certificate",
+								"<a href='data/prototypes/promotions/ef-a.pdf' target='_blank'>View</a>"
 							]
-						]
+                        ]
                     },
                     "el" : {
 						"label" : "",
@@ -94,8 +94,8 @@
 							],
                             [	"<b>Πιστοποιητικό στρατολογικής κατάστασης \"Α\"</b>",
 								"",
-								"<a id='efFileU' href='data/prototypes/promotions/ef-a.pdf' target='_blank'></a>",
-								"<a id='changeEF' href='#p/promotions/loadEFCertificate'>Αλλαγή</a>"
+								"Έχουμε εντοπίσει στο αρχείο μας το πιστοποιητικό σας",
+								"<a href='data/prototypes/promotions/ef-a.pdf' target='_blank'>Προβολή</a>"
 							]
 						]
                     }

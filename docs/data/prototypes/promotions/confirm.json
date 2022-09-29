@@ -10,11 +10,11 @@
             {
                 "type": "successPanel",
                 "content" : {
-                    "en" : {"head" : "Your application has been sent",
-                            "label": "Your reference number<br>HDJ2123F"
+                    "en" : {"head" : "Your application has been successfully submited",
+                            "label": "Your application reference number is<br>HDJ2123F"
                         },
-                    "el" : {"head" : "Η αίτηση σας έχει υποβληθεί",
-                            "label": "O αριθμός αίτησης σας<br>HDJ2123F"
+                    "el" : {"head" : "Η αίτησή σας έχει υποβληθεί με επιτυχία",
+                            "label": "O αριθμός της αίτησης σας είναι<br>HDJ2123F"
                         }
                 }
             }
@@ -29,7 +29,7 @@
                 "type": "paragraph",
                 "content" : {
                     "en" : {"label" : "Your application will be processed by Educational Commission Service."},
-                    "el" : {"label" : "Η αίτηση σας θα τύχει επεξεργασίας από την Επιτροπή Εκπαιδευτικής Υπηρεσίας."}
+                    "el" : {"label" : "Η αίτησή σας θα τύχει επεξεργασίας από την Επιτροπή Εκπαιδευτικής Υπηρεσίας."}
                 }
             }
             ,{
@@ -42,8 +42,8 @@
             ,{
                 "type": "spanHTML",
                 "content" : {
-                    "en" : {"label" : "<p class='govcy-mb-3'>You may see <a href='#p/promotions/0'>history</a> of yout promotion applications.</p>"},
-                    "el" : {"label" : "<p class='govcy-mb-3'>Μπορείτε να δείτε το <a href='#p/promotions/0'>ιστορικό</a> των αιτήσεών σας για προαγωγή.</p>"}
+                    "en" : {"label" : "<p class='govcy-mb-3'>You may see <a id='history' title='history' href='#' onclick='openPageByID(2);return false;'>history</a> of yout promotion applications.</p>"},
+                    "el" : {"label" : "<p class='govcy-mb-3'>Μπορείτε να δείτε το <a id='history' title='history' href='#' onclick='openPageByID(2);return false;'>ιστορικό</a> των αιτήσεών σας για προαγωγή.</p>"}
                 }
             }
             ,{

@@ -62,6 +62,7 @@ else {
 	$("#rowid1").text('');
 	$("#titleOfStudyAddT").text('');
 	$("#ChangeT").text('');
+	$("#changeQualAdd").text('');
 }
 
 if (sessionStorage["institutionAdd"] && sessionStorage["institutionAdd"] != "")
@@ -81,9 +82,14 @@ else
 
 
 if (sessionStorage["efFile"]) {
-    if (sessionStorage["efFile"] != "")
-		$("#efFileU").text("Προβολή");
-	else $("#efFileU").text("");
+    if (sessionStorage["efFile"] != "") {
+		$("#efFileU").text("Προβολή Αρχείου");
+		$("#efFileUEn").text("View File");
+	}
+	else {
+		$("#efFileU").text("");
+		$("#efFileUEn").text("");
+	}
 }
 else
 	$("#efFileU").text("");

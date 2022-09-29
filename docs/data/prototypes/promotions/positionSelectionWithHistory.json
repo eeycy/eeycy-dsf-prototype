@@ -19,8 +19,8 @@
             ,{
                 "type": "h1",
                 "content" : {
-                    "en" : {"label" : "Position for which you are applying"},
-                    "el" : {"label" : "Θέση για την οποία υποβάλλετε την αίτηση"}
+                    "en" : {"label" : "You can apply for the following positions"},
+                    "el" : {"label" : "Μπορείτε να υποβάλετε αίτηση για τις πιο κάτω θέσεις"}
                 }
             }
             ,{
@@ -31,35 +31,26 @@
                     "en" : {"label" : "",
                             "head": ["","",""],
                             "data" : [
-                                ["<b>1</b>","<b>Position: </b><span id='position1'>Deputy Principal A' Secondary General Education for Informatics - Computer Science</span><br><b>Publication: </b><span id='publication1'>19</span><br><b>Submition Deadline: </b><span id='dates1'>01/09/2022 - 25/09/2022 at 13:00</span>", "<b>Received</b>", "<a id='next1' title='Edit' href='#' onclick='viewPosition(4);return false;'>Edit</a>"],
-                                ["<b>2</b>","<b>Position: </b><span id='position2'>Inspector Secondary General Education for Informatics - Computer Science</span><br><b>Publication: </b><span id='publication2'>19</span><br><b>Submition Deadline: </b><span id='dates2'>01/09/2022 - 25/09/2022 at 13:00</span>", "", "<a id='next2' title='New' href='#' onclick='selectPosition(5);return false;'>New</a>"],
-                                ["<b>3</b>","<b>Position: </b><span id='position3'>Pedagogical Institute Teacher for Informatics</span><br><b>Publication: </b><span id='publication3'>20</span><br><b>Submition Deadline: </b><span id='dates3'>10/09/2022 - 05/10/2022 at 13:00</span>", "", "<a id='next3' title='New' href='#' onclick='selectPosition(6);return false;'>New</a>", ""]
+                                ["<b>1</b>","<b>Position: </b><span id='position1'>Deputy Principal A' Secondary General Education for Informatics - Computer Science</span><br><b>Publication: </b><span id='publication1'>19</span><br><b>Submition Deadline: </b><span id='dates1'>25/09/2022 at 13:00</span>", "<b>Received</b>", "<a id='next1' title='Edit' href='#' onclick='viewPosition(4);return false;'>Edit</a>"],
+                                ["<b>2</b>","<b>Position: </b><span id='position2'>Inspector Secondary General Education for Informatics - Computer Science</span><br><b>Publication: </b><span id='publication2'>19</span><br><b>Submition Deadline: </b><span id='dates2'>25/09/2022 at 13:00</span>", "", "<a id='next2' title='Apply' href='#' onclick='selectPosition(5);return false;'>Apply</a>"],
+                                ["<b>3</b>","<b>Position: </b><span id='position3'>Pedagogical Institute Teacher for Informatics</span><br><b>Publication: </b><span id='publication3'>20</span><br><b>Submition Deadline: </b><span id='dates3'>05/10/2022 at 13:00</span>", "", "<a id='next3' title='Apply' href='#' onclick='selectPosition(6);return false;'>Apply</a>", ""]
                             ]
                         },
                     "el" : {"label" : "",
                             "head": ["","",""],
                             "data" : [
-                                ["<b>1</b>","<b>Θέση: </b><span id='position1'>Βοηθός Διευθυντής Α' Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.</span><br><b>Προκήρυξη: </b><span id='publication1'>19</span><br><b>Προθεσμία Υποβολής Αίτησης: </b><span id='dates1'>01/09/2022 - 25/09/2022, ώρα 13:00</span>", "<b>Παραλήφθηκε</b>", "<a id='next1' title='Επεξεργασία' href='#' onclick='viewPosition(1);return false;'>Επεξεργασία</a>"],
-                                ["<b>2</b>","<b>Θέση: </b><span id='position2'>Επιθεωρητής Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.</span><br><b>Προκήρυξη: </b><span id='publication2'>19</span><br><b>Προθεσμία Υποβολής Αίτησης: </b><span id='dates2'>01/09/2022 - 25/09/2022, ώρα 13:00</span>", "", "<a id='next2' title='Αίτηση' href='#' onclick='selectPosition(2);return false;'>Νέα Αίτηση</a>"],
-                                ["<b>3</b>","<b>Θέση: </b><span id='position3'>Καθηγητής Παιδαγωγικού Ινστιτούτου για τη Πληροφορική</span><br><b>Προκήρυξη: </b><span id='publication3'>20</span><br><b>Προθεσμία Υποβολής Αίτησης: </b><span id='dates3'>10/09/2022 - 05/10/2022, ώρα 13:00</span>", "", "<a id='next3' title='Αίτηση' href='#' onclick='selectPosition(3);return false;'>Νέα Αίτηση</a>"]
+                                ["<b>1</b>","<b>Θέση: </b><span id='position1'>Βοηθός Διευθυντής Α' Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.</span><br><b>Προκήρυξη: </b><span id='publication1'>19</span><br><b>Προθεσμία Υποβολής Αίτησης: </b><span id='dates1'>25/09/2022, ώρα 13:00</span>", "<b>Παραλήφθηκε</b>", "<a id='next1' title='Επεξεργασία' href='#' onclick='viewPosition(1);return false;'>Επεξεργασία</a>"],
+                                ["<b>2</b>","<b>Θέση: </b><span id='position2'>Επιθεωρητής Μέσης Γενικής Εκπαίδευσης για τη Πληροφορική - Επιστήμη Η.Υ.</span><br><b>Προκήρυξη: </b><span id='publication2'>19</span><br><b>Προθεσμία Υποβολής Αίτησης: </b><span id='dates2'>25/09/2022, ώρα 13:00</span>", "", "<a id='next2' title='Αίτηση' href='#' onclick='selectPosition(2);return false;'>Αίτηση</a>"],
+                                ["<b>3</b>","<b>Θέση: </b><span id='position3'>Καθηγητής Παιδαγωγικού Ινστιτούτου για τη Πληροφορική</span><br><b>Προκήρυξη: </b><span id='publication3'>20</span><br><b>Προθεσμία Υποβολής Αίτησης: </b><span id='dates3'>05/10/2022, ώρα 13:00</span>", "", "<a id='next3' title='Αίτηση' href='#' onclick='selectPosition(3);return false;'>Αίτηση</a>"]
                         ]
                     }
                 }
             }
-            ,{
-                "type": "button",
-                "subtype": "secondary",
-                "id":"historyButton",
-                "events" : [
-                    {
-                        "on":"click","actions" : [
-                            {"action" : "getData","data":""},
-							{"action" : "link", "data":"#p/promotions/positionApplicationHistory"}
-                        ]
-                    }
-                ],
+			,{
+                "type": "link",
+                "href" : "#p/promotions/positionApplicationHistory",
                 "content" : {
-                    "en" : {"label" : "Completed Application History"},
+                    "en" : {"label" : "Completed Applications History"},
                     "el" : {"label" : "Ιστορικό Ολοκληρωμένων Αιτήσεων"}
                 }
             }

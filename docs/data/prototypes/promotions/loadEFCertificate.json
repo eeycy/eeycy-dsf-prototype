@@ -23,15 +23,15 @@
             ,{
                 "type": "h1",
                 "content" : {
-                    "en" : {"label" : "National Guard Service"},
-                    "el" : {"label" : "Υπηρεσία στην Εθνική Φρουρά"}
+                    "en" : {"label" : "Attach the certificate of militaty recruitment, type \"A\""},
+                    "el" : {"label" : "Επισυνάψτε το πιστοποιητικό στρατολογικής κατάστασης \"Α\""}
                 }
             }
             ,{
                 "type": "paragraph",
                 "content" : {
-                    "en" : {"label" : "Upload the certificate of militaty recruitment, type \"A\", which certifies your military service."},
-                    "el" : {"label" : "Ανεβάστε το πιστοποιητικό στρατολογικής κατάστασης \"Α\" το οποίο πιστοποιεί τη στρατιωτική σας θητεία."}
+                    "en" : {"label" : "The certificate of militaty recruitment, type \"A\" certifies your military service."},
+                    "el" : {"label" : "Το πιστοποιητικό στρατολογικής κατάστασης \"Α\" πιστοποιεί την υπηρεσία σας στην Εθνική Φρουρά. "}
                 }
             }
             ,{

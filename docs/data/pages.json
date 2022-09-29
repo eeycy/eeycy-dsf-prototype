@@ -15,9 +15,7 @@
         ,"login":{"id":"login"}
         ,"promotions/badLogin":{"id":"promotions/badLogin"}
         ,"promotions/start":{"id":"promotions/start"}
-        ,"promotions/contactDetails":{"id":"promotions/contactDetails"}
         ,"promotions/notApplicable":{"id":"promotions/notApplicable"}
-        ,"promotions/positionSelection":{"id":"promotions/positionSelection"}
         ,"promotions/positionSelectionWithHistory":{"id":"promotions/positionSelectionWithHistory"}
         ,"promotions/positionApplicationHistory":{"id":"promotions/positionApplicationHistory"}
         ,"promotions/scenarioCheckHistory":{"id":"promotions/scenarioCheckHistory"}
@@ -25,12 +23,15 @@
         ,"promotions/qualifications":{"id":"promotions/qualifications"}
         ,"promotions/qualifications2":{"id":"promotions/qualifications2"}
         ,"promotions/qualificationsAdd":{"id":"promotions/qualificationsAdd"}
+        ,"promotions/qualificationsAddChnage":{"id":"promotions/qualificationsAddChange"}
         ,"promotions/loadEFCertificate":{"id":"promotions/loadEFCertificate"}
         ,"promotions/loadEFCertificateNA":{"id":"promotions/loadEFCertificateNA"}
         ,"promotions/loadEFCertificateE":{"id":"promotions/loadEFCertificateE"}
+        ,"promotions/phoneDetails":{"id":"promotions/phoneDetails"}
+        ,"promotions/emailDetails":{"id":"promotions/emailDetails"}
         ,"promotions/scenarioCheck":{"id":"promotions/scenarioCheck"}
-        ,"promotions/scenarioCheck":{"id":"promotions/scenarioCheckNoEF"}
-        ,"promotions/legalStatement":{"id":"promotions/legalStatement"}
+        ,"promotions/scenarioCheckNA":{"id":"promotions/scenarioCheckNA"}
+        ,"promotions/scenarioCheckE":{"id":"promotions/scenarioCheckE"}
         ,"promotions/confirm":{"id":"promotions/confirm"}
         ,"cheatsheet":{"id":"cheatsheet"}
         ,"signOut":{"id":"signOut"}
@@ -42,9 +43,7 @@
             ,"promotions/positionSelectionWithHistory"
             ,"promotions/qualificationsCheck"
 			,"promotions/loadEFCertificate"
-            ,"promotions/contactDetails"
             ,"promotions/scenarioCheck"
-            ,"promotions/legalStatement"
             ,"promotions/confirm"
             ]
         ,"promotions2" : [
@@ -53,9 +52,7 @@
             ,"promotions/positionSelectionWithHistory"
             ,"promotions/qualificationsCheck"
 			,"promotions/loadEFCertificateNA"
-            ,"promotions/contactDetails"
-            ,"promotions/scenarioCheckNoEF"
-            ,"promotions/legalStatement"
+            ,"promotions/scenarioCheckNA"
             ,"promotions/confirm"
             ]
         ,"promotions3" : [
@@ -64,9 +61,7 @@
             ,"promotions/positionSelectionWithHistory"
             ,"promotions/qualificationsCheck"
 			,"promotions/loadEFCertificateE"
-            ,"promotions/contactDetails"
-            ,"promotions/scenarioCheckNoEF"
-            ,"promotions/legalStatement"
+            ,"promotions/scenarioCheckE"
             ,"promotions/confirm"
             ]
         ,"promotions4" : [

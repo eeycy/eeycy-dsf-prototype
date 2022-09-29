@@ -22,8 +22,15 @@
             ,{
                 "type": "h1",
                 "content" : {
-                    "en" : {"label" : "Academic Qualifications"},
-                    "el" : {"label" : "Ακαδημαϊκά Προσόντα"}
+                    "en" : {"label" : "Edit your academic qualifications"},
+                    "el" : {"label" : "Αλλάξτε τα ακαδημαϊκά σας προσόντα"}
+                }
+            }
+            ,{
+                "type": "fieldsetOpen",
+                "content" : {
+                    "en" : {"legend" : ""},
+                    "el" : {"legend" : ""}
                 }
             }
             ,{
@@ -32,7 +39,7 @@
                 "name": "titleOfStudy1",
                 "id" : "titleOfStudy1",
                 "maxlength": 400,
-                "charSubType":"20",
+                "charSubType":"40",
                 "content" : {
                     "en" : {"label" : "Title of Study"},
                     "el" : {"label" : "Τίτλος Σπουδών"}
@@ -44,35 +51,48 @@
                 "name": "institution1",
                 "id" : "institution1",
                 "maxlength": 400,
-                "charSubType":"20",
+                "charSubType":"40",
                 "content" : {
                     "en" : {"label" : "Institution"},
                     "el" : {"label" : "Ίδρυμα"}
                 }
             }
-            ,{
-                "type": "text",
-                "required": false,
+			,{
+				"type": "select",
                 "name": "countryOfStudy1",
-                "id" : "countryOfStudy1",
-                "maxlength": 400,
-                "charSubType":"20",
-                "content" : {
-                    "en" : {"label" : "Country of Study"},
-                    "el" : {"label" : "Χώρα"}
-                }
-            }
-            ,{
-                "type": "text",
-                "required": false,
-                "name": "yearOfStudy1",
-                "id" : "yearOfStudy1",
-                "maxlength": 400,
-                "charSubType":"20",
+				"id" : "countryOfStudy1",
+                "charSubType": "20",
+				"content" : {
+					"en" : {
+						"label" : "Country of Study",
+						"options": [
+							{"option_value":"Cyprus", "option_label":"Cyprus"}
+							,{"option_value":"Greece", "option_label":"Greece"}
+							,{"option_value":"England", "option_label":"England"}
+						]
+					},
+					"el" : {
+						"label" : "Χώρα",
+						"options": [
+							{"option_value":"Κύπρος", "option_label":"Κύπρος"}
+							,{"option_value":"Ελλάδα", "option_label":"Ελλάδα"}
+							,{"option_value":"Αγγλία", "option_label":"Αγγλία"}
+						]
+					}
+				}
+			}            
+			,{
+				"type": "dateYear",
+				"required": false,
+				"name": "yearOfStudy1",
+				"id" : "yearOfStudy1",
                 "content" : {
                     "en" : {"label" : "Year of study"},
                     "el" : {"label" : "Έτος απόκτησης"}
                 }
+			}
+			,{
+                "type": "fieldsetClose"
             }
             ,{
                 "type": "button",

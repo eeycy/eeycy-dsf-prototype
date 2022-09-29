@@ -36,6 +36,12 @@ function openPage(name) {
     window.location=newURL;
 }
 
+function openPageByID(id) {
+
+    var newURL= "#r/" + currentRouteId + '/' + id;
+    window.location=newURL;
+}
+
 function forwardPageOnRoute(steps) {
 
 	var nextRoutId=parseInt(currentRouteNo) + steps;
@@ -83,7 +89,7 @@ function viewPosition(id) {
 
 	selectPositionString(id);
 	if (id <= 10)
-		forwardPageOnRoute(4);
+		forwardPageOnRoute(3);
 	else
 		openPage("scenarioCheckHistory");
 		

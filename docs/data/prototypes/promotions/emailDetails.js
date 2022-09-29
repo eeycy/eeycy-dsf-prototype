@@ -5,9 +5,3 @@ function checkEmail(){
     && !is.email( document.forms["components"]["emailAddress"].value )) return false;
     else return true;
 }
-
-function checkPhone(){
-    if ((document.forms["components"]["phoneRadio"].value == "custom") 
-        && document.forms["components"]["phoneNum"].value == "") return false;
-   else return true;
-}

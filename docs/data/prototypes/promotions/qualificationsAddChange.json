@@ -1,5 +1,5 @@
 {
-    "id":"promotions/qualificationsAdd",
+    "id":"promotions/qualificationsAddChange",
     "menus" : [],
     "layout" : "Two-thirds",
     "preScript" : "isLoggedIn.js",
@@ -22,8 +22,8 @@
             ,{
                 "type": "h1",
                 "content" : {
-                    "en" : {"label" : "Add your academic qualifications"},
-                    "el" : {"label" : "Προσθέστε τα ακαδημαϊκά σας προσόντα"}
+                    "en" : {"label" : "Edit your academic qualifications"},
+                    "el" : {"label" : "Αλλάξτε τα ακαδημαϊκά σας προσόντα"}
                 }
             }
             ,{
