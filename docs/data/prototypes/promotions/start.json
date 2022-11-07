@@ -40,7 +40,7 @@
                 "type": "spanHTML",
                 "content" : {
                     "en" : {"label" : "<p class='govcy-mb-3'>You’ll need a military service certificate (Type A), if you are elgible to use it and in case you haven't submited it during a previous promotion procedure.</p>"},
-                    "el" : {"label" : "<p class='govcy-mb-3'>Θα χρειαστείτε το πιστοποιητικό στρατολογικής κατάστασης \"Α\", εφόσον δικαιούσται να το χρησιμοποιήσετε και νοουμένου ότι δεν το έχετε υποβάλει σε προηγούμενη διαδικασία προαγωγής.</p>"}
+                    "el" : {"label" : "<p class='govcy-mb-3'>Θα χρειαστείτε το πιστοποιητικό στρατολογικής κατάστασης \"Α\", εφόσον δικαιούστε να το χρησιμοποιήσετε και νοουμένου ότι δεν το έχετε υποβάλει σε προηγούμενη διαδικασία προαγωγής.</p>"}
                 }
             },
             {
